@@ -1,0 +1,290 @@
+@import url(colores.css);
+
+.contenedor-conversaciones {
+    border-radius: none !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*cabecera del contenedor de los mensajes*/
+.cabecera-conversacion {
+    background: rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cabecera-conversacion .datos {
+    width: 100%;
+    color: rgba(var(--rosa-vibrante));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecera-conversacion .datos h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.cabecera-conversacion .acciones-conversacion {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.boton-ver, .boton-seleccionar {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.boton-ver {
+    background: rgba(var(--morado-medio), 0.8);
+    color: white;
+}
+
+.boton-ver:hover {
+    background: rgba(var(--morado-oscuro), 0.9);
+}
+
+.boton-seleccionar {
+    background: rgba(var(--amarillo-dorado), 0.9);
+    color: #000;
+}
+
+.boton-seleccionar:hover {
+    background: rgba(var(--verde-festivo), 0.9);
+}
+
+/*contenedor de los mensajes*/
+.contenedor-mensajes {
+    overflow-y: auto;
+    border-radius: 0;
+    background: rgba(0, 0, 0, .3);
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+/* Scrollbar personalizada */
+.contenedor-mensajes::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contenedor-mensajes::-webkit-scrollbar-track {
+    background: rgba(var(--morado-oscuro), 0.3);
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.contenedor-mensajes::-webkit-scrollbar-thumb {
+    background: rgba(var(--rosa-mexicano), 0.5);
+    border-radius: 4px;
+}
+
+.contenedor-mensajes::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--rosa-mexicano), 0.8);
+}
+
+/* Mensajes */
+.contenedor-mensaje {
+    width: 50%;
+    padding: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenedor-mensaje hr {
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    margin: 5px 0;
+}
+
+.contenedor-mensaje h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.contenedor-mensaje p {
+    color: rgba(255, 255, 255, .9);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.contenedor-mensaje span {
+    text-align: end;
+    font-size: .8rem;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 5px;
+}
+
+/* Mensaje usuario */
+.mensaje-usuario {
+    background: rgba(var(--rosa-mexicano), .1);
+    border: 2px solid rgba(var(--rosa-mexicano), .2);
+    text-align: left;
+    align-self: flex-end;
+    color: rgba(var(--rosa-mexicano));
+}
+
+.mensaje-usuario h3 {
+    color: rgba(var(--rosa-mexicano), .8);
+}
+
+/* Respuesta */
+.respuesta {
+    align-self: flex-start;
+    background: rgba(var(--rosa-vibrante), .1);
+    border: 2px solid rgba(var(--rosa-vibrante), .2);
+    text-align: left;
+    color: rgba(var(--rosa-vibrante));
+}
+
+.respuesta h3 {
+    color: rgba(var(--rosa-vibrante), .8);
+}
+
+.respuesta .caracteristicas-respuesta {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.respuesta .caracteristicas-respuesta p {
+    padding: 5px;
+    font-size: .9rem;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, .2);
+    color: rgba(var(--verde-festivo));
+    text-align: center;
+    margin: 0;
+}
+
+/* Contenedor mensaje nuevo */
+.contenedor-mensaje-nuevo {
+    background: rgba(0,0,0,.5);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.contenedor-mensaje-nuevo input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .1);
+    color: white;
+    font-size: 1rem;
+}
+
+.contenedor-mensaje-nuevo input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, .15);
+}
+
+.contenedor-mensaje-nuevo input::placeholder {
+    color: rgba(255, 255, 255, .5);
+}
+
+.boton-enviar {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 15px;
+    background: rgb(var(--verde-festivo));
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.boton-enviar:hover {
+    background: rgba(var(--amarillo-dorado), 0.9);
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 1024px) and (min-width: 601px) {
+    .contenedor-conversaciones {
+        padding-bottom: 65px;
+    }
+    
+    .contenedor-mensajes {
+        padding: 20px 30px;
+    }
+    
+    .contenedor-mensaje {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor-conversaciones {
+        margin-bottom: 100px;
+    }
+    
+    .contenedor-mensajes {
+        padding: 15px 20px;
+    }
+    
+    .contenedor-mensaje {
+        width: 85%;
+        padding: 12px;
+    }
+    
+    .cabecera-conversacion {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .cabecera-conversacion .datos,
+    .cabecera-conversacion .acciones-conversacion {
+        width: 100%;
+    }
+    
+    .contenedor-mensaje-nuevo {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .boton-enviar {
+        width: 100%;
+    }
+    
+    .respuesta .caracteristicas-respuesta {
+        grid-template-columns: 1fr;
+    }
+}

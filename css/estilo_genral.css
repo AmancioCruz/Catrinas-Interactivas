@@ -1,0 +1,30 @@
+@import url(colores.css);
+@import url(estilo_inicio_sesion.css);
+@import url(estilo_inicio.css);
+@import url(estilo_tarjeta.css);
+@import url(estilo_conversaciones.css);
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HTML */
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/* Body */
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(var(--morado-oscuro));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

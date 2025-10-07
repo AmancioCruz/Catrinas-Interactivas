@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1.5, user-scalable=yes">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="css/estilo_genral.css">
+        <title>Catrinas</title>
+    </head>
+    <body>
+
+        <!--menu y contenido -->
+        <div>
+            <header class="cabecera-principal">
+                <div class="elemento-perfil-seleccionado">
+                    <i class="fa-solid fa-skull"></i>
+                    <span id="perfil_seleccionado">Nombre del perfil</span>
+                </div>
+                <div class="elemento-buscar-perfil">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="buscar" id="buscar"
+                        placeholder="Buscars">
+                </div>
+            </header>
+
+            <nav class="barra-de-opciones-usuario">
+                <ul class="lista-opciones">
+                    <li class="opcion">
+                        <button type="button"
+                            id="boton_registrar">
+                            <i class="fa-solid fa-user-plus"></i>
+                            <span class="texto">Registrar</span>
+                        </button>
+                    </li>
+                    <li class="opcion">
+                        <button type="button" id="boton_ver">
+                            <i class="fa-solid fa-users"></i>
+                            <span class="texto">Ver todos</span>
+                        </button>
+                    </li>
+                    <li class="opcion">
+                        <button type="button" id="boton-conversar">
+                            <i class="fa-solid fa-comments"></i>
+                            <span class="texto">Conversación</span>
+                        </button>
+                    </li>
+                </ul>
+                <div class="opcion-cerrar-sesion">
+                    <button type="button" id="boton_cerrar">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span class="texto">Cerrar sesión</span>
+                    </button>
+                </div>
+            </nav>
+
+            <main id="contenido" class="contenido">
+
+                
+            </main>
+        </div>
+    </body>
+    <script type="module" src="js/main.js"></script>
+</html>

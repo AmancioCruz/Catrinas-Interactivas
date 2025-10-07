@@ -1,0 +1,289 @@
+@import url(colores.css);
+/* Header */
+.cabecera-principal {
+    width: 100%;
+    height: 70px;
+    background: rgba(var(--negro-translucido));
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    z-index: 999;
+}
+
+.elemento-perfil-seleccionado {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 45px;
+    border-radius: 8px;
+}
+
+.elemento-perfil-seleccionado i {
+    font-size: 1.3rem;
+    margin-right: 10px;
+    color: rgb(var(--amarillo-dorado));
+}
+
+#perfil_seleccionado {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Buscar perfil */
+.elemento-buscar-perfil {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 300px;
+}
+
+.elemento-buscar-perfil i {
+    position: absolute;
+    left: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    z-index: 2;
+}
+
+.elemento-buscar-perfil input {
+    width: 100%;
+    font-size: 0.95rem;
+    padding: 12px 15px 12px 45px;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.elemento-buscar-perfil input:focus {
+    outline: 2px solid rgb(var(--verde-festivo));
+}
+
+/* Menú lateral */
+.barra-de-opciones-usuario {
+    width: 280px;
+    height: calc(100vh - 70px);
+    background: rgba(var(--negro-translucido));
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    z-index: 1000;
+}
+
+.lista-opciones {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    margin-bottom: auto;
+}
+
+.opcion {
+    width: 100%;
+    margin: 8px 0;
+}
+
+.opcion button {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px 20px 15px 50px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    border: none;
+    text-align: left;
+}
+
+.opcion button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: 2px solid rgb(var(--verde-festivo));
+}
+
+.opcion button:active {
+    background: rgb(var(--verde-festivo));
+    color: rgb(var(--morado-oscuro));
+}
+
+.opcion button i {
+    position: absolute;
+    left: 20px;
+    font-size: 1.1rem;
+    color: rgb(var(--verde-festivo));
+}
+
+.opcion.active button {
+    background: rgba(var(--verde-festivo), 0.15);
+    color: white;
+}
+
+/* Cerrar sesión */
+.opcion-cerrar-sesion {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.opcion-cerrar-sesion button {
+    width: 100%;
+    background: rgb(var(--rosa-vibrante));
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.2s ease;
+    border: none;
+}
+
+.opcion-cerrar-sesion button:hover {
+    outline: 2px solid rgb(var(--amarillo-dorado));
+}
+
+.opcion-cerrar-sesion button:active {
+    background: rgb(var(--amarillo-dorado));
+    color: rgb(var(--morado-oscuro));
+}
+
+.opcion-cerrar-sesion button i {
+    margin-right: 8px;
+    color: rgb(var(--amarillo-dorado));
+}
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 601px) {
+    .barra-de-opciones-usuario {
+        width: 100%;
+        height: 70px;
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        border-top: 2px solid rgb(var(--rosa-mexicano));
+    }
+
+    .lista-opciones {
+        flex-direction: row;
+        margin-bottom: 0;
+        padding: 0 10px;
+        width: auto;
+        flex: 1;
+    }
+
+    .opcion {
+        margin: 5px;
+    }
+
+    .opcion button {
+        padding: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .opcion button i {
+        position: static;
+        margin: 0;
+    }
+
+    .texto {
+        display: none;
+    }
+
+    .opcion-cerrar-sesion {
+        width: 20%;
+    }
+}
+
+/* Móvil */
+@media screen and (max-width: 600px) {
+    .cabecera-principal {
+        padding: 0 15px;
+    }
+
+    .barra-de-opciones-usuario {
+        width: 100%;
+        height: 70px;
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        border-top: 2px solid rgb(var(--rosa-mexicano));
+    }
+
+    .lista-opciones {
+        flex-direction: row;
+        margin-bottom: 0;
+        padding: 0 10px;
+        width: auto;
+        flex: 1;
+    }
+
+    .opcion {
+        margin: 5px;
+    }
+
+    .opcion button {
+        padding: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .opcion button i {
+        position: static;
+        margin: 0;
+    }
+
+    .texto {
+        display: none;
+    }
+
+    .opcion-cerrar-sesion {
+        width: 25%;
+    }
+
+    .contenido {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 140px);
+        margin-bottom: 70px;
+        padding: 15px;
+    }
+
+    .elemento-perfil-seleccionado {
+        padding: 8px 15px;
+    }
+
+    .elemento-buscar-perfil {
+        width: 180px;
+    }
+
+    .elemento-buscar-perfil input {
+        padding: 10px 12px 10px 35px;
+    }
+
+    .elemento-buscar-perfil i {
+        left: 12px;
+        font-size: 0.9rem;
+    }
+}

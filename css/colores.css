@@ -1,0 +1,10 @@
+:root {
+    --morado-oscuro: 45, 3, 59;
+    --morado-medio: 129, 12, 168;
+    --rosa-mexicano: 193, 71, 233;
+    --amarillo-dorado: 249, 228, 0;
+    --rosa-vibrante: 255, 79, 163;
+    --verde-festivo: 0, 200, 151;
+    --negro-translucido: 0, 0, 0, 0.7;
+    --blanco-translucido: 255, 255, 255, .1;
+}
