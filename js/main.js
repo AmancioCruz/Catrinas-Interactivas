@@ -1,7 +1,9 @@
-import { crearTarjetasEnVista } from "./controlador_vista.js";
+import { crearConversacionesEnVista, crearTarjetasEnVista } from "./controlador_vista.js";
 import { GestorPerfiles } from "./gestores/gestor_perfiles.js";
 import { actualizarNombrePerfilSeleccionado, consultarTarjetaSeleccionada, convertir_de_JSON_a_Objeto } from "./utilidades/ayudas.js";
 import { renderizarContenido } from "./controlador_vista.js";
+import { GestorConversaciones } from "./gestores/gestor_conversaciones.js";
+
 
 const gestor_perfiles = new GestorPerfiles();
 
@@ -64,7 +66,7 @@ async function IniciarApp() {
     /**
      * Agregar la obtenecion de los perfiles de firestore y si nos e obtienen usar los que estan de forma local
      */
-    
+
     gestor_perfiles.cargarPerfiles(JSON.parse(localStorage.getItem('perfiles')), consultarTarjetaSeleccionada());
     console.log(gestor_perfiles);
     actualizarNombrePerfilSeleccionado(gestor_perfiles.seleccionado);
@@ -76,10 +78,19 @@ document.querySelector('#boton_ver').addEventListener('click', () => {
     crearTarjetasEnVista(gestor_perfiles);
 })
 
-/*document.querySelector('#boton-conversar').addEventListener('click', ()=>{
-    console.log(gestor_perfiles.seleccionado);
-   renderizarContenido(crearConversacion(conversaciones[gestor_perfiles.seleccionado.id]));
-})*/
+document.querySelector('#boton-conversar').addEventListener('click', () => {
+    const gestor_conversaciones = new GestorConversaciones();
+
+    gestor_conversaciones.cargarConversaciones(conversaciones);
+
+
+    crearConversacionesEnVista(gestor_conversaciones.obtenerConversacionPorID(gestor_perfiles.seleccionado.id), gestor_perfiles);
+
+    const contenedor_mensajes = document.querySelector('#contenedor-mensajes');
+    contenedor_mensajes.scrollTop = contenedor_mensajes.scrollHeight;
+
+    //gestor_conversaciones.agregarNuevoMensajeAConversacion(1);
+})
 
 
 

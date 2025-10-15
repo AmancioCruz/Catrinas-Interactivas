@@ -1,5 +1,5 @@
 import { crear_elemento, crear_botones, formatear_texto } from "./utilidades/ayudas.js";
-
+ 
 /*
 <div class="contenedor-conversaciones">
     <div class="cabecera-conversacion">

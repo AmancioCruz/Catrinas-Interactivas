@@ -43,98 +43,25 @@
       "backstory": "Sueña con fusionar moda mexicana y japonesa",
       "objetos": "Siempre carga una libreta de diseños y una pluma",
       "secretos": "Le encanta el K-pop pero no lo admite fácilmente"
-    }
-  },
-  {
-    "id": 2,
-    "nombre": "Carlos",
-    "datosBasicos": {
-      "edad": "30",
-      "genero": "Hombre",
-      "nacionalidad": "Mexicano",
-      "ciudad": "Monterrey, Nuevo León",
-      "ocupacion": "Ingeniero de software",
-      "claseSocial": "Clase media alta"
     },
-    "personalidad": {
-      "rasgos": "Analítico, perfeccionista, un poco introvertido",
-      "estadoAnimo": "Tranquilo pero concentrado",
-      "miedos": "Fracasar en un proyecto importante",
-      "metas": "Fundar su propia startup tecnológica"
-    },
-    "formaHablar": {
-      "modismos": "La neta, órale, ¿qué onda?",
-      "tonoVoz": "Firme y seguro",
-      "velocidad": "Moderada, clara al explicar",
-      "frases": "Hay que optimizarlo, ¡sí se puede!"
-    },
-    "intereses": {
-      "hobbies": "Videojuegos, tocar guitarra, leer ciencia ficción",
-      "gustos": "Música rock, películas de acción",
-      "temasApasionan": "Inteligencia artificial, ciberseguridad",
-      "temasEvita": "Chismes o temas superficiales"
-    },
-    "lenguajeCorporal": {
-      "gestos": "Cruza los brazos al pensar, juega con un bolígrafo",
-      "postura": "Recta, ligeramente inclinada hacia adelante",
-      "expresiones": "Sonríe poco, mirada atenta",
-      "movimientos": "Controlados y pausados"
-    },
-    "contexto": {
-      "situacion": "Explicando un proyecto en el trabajo",
-      "estadoAnimo": "Seguro de sus ideas",
-      "relacion": "Colegas de confianza"
-    },
-    "extras": {
-      "backstory": "Trabajó en Silicon Valley unos años",
-      "objetos": "Siempre lleva un smartwatch y laptop",
-      "secretos": "Sueña con ser músico profesional"
-    }
-  },
-  {
-    "id": 3,
-    "nombre": "Lucía",
-    "datosBasicos": {
-      "edad": "22",
-      "genero": "Mujer",
-      "nacionalidad": "Colombiana",
-      "ciudad": "Medellín",
-      "ocupacion": "Estudiante de psicología",
-      "claseSocial": "Clase media"
-    },
-    "personalidad": {
-      "rasgos": "Empática, extrovertida, alegre",
-      "estadoAnimo": "Muy positiva y motivada",
-      "miedos": "Defraudar a sus padres",
-      "metas": "Trabajar en proyectos de salud mental juvenil"
-    },
-    "formaHablar": {
-      "modismos": "Parce, gonorrea (coloquial), bacano",
-      "tonoVoz": "Animado y cálido",
-      "velocidad": "Rápida, con risas frecuentes",
-      "frases": "¡Eso está muy bacano!, Te entiendo full"
-    },
-    "intereses": {
-      "hobbies": "Bailar salsa, voluntariado, escribir en un blog",
-      "gustos": "Música latina, comida callejera",
-      "temasApasionan": "Salud mental, feminismo, arte urbano",
-      "temasEvita": "Conversaciones pesimistas"
-    },
-    "lenguajeCorporal": {
-      "gestos": "Abraza a las personas al saludar, usa expresiones grandes",
-      "postura": "Abierta y relajada",
-      "expresiones": "Sonrisas constantes, cejas muy expresivas",
-      "movimientos": "Dinámicos y llenos de energía"
-    },
-    "contexto": {
-      "situacion": "Conversando en un café con amigos",
-      "estadoAnimo": "Feliz y motivada",
-      "relacion": "Amigos cercanos"
-    },
-    "extras": {
-      "backstory": "Quiere crear una fundación de apoyo psicológico",
-      "objetos": "Siempre trae un cuaderno con frases inspiradoras",
-      "secretos": "Sufrió ansiedad en su adolescencia"
-    }
+
+    "animaciones_disponibles": [
+        "sentarse",
+        "saludar",
+        "cambiar_vestido",
+        "felicidad",
+        "indignacion",
+        "explicar",
+        "alejarse"
+    ],
+
+    "estados_animo_disponibles": [
+        "alegre",
+        "curiosa",
+        "enojado",
+        "indignacion",
+        "explicar",
+        "alejarse"
+    ]
   }
 ]

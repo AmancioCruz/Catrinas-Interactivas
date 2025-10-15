@@ -1,3 +1,5 @@
+import { actualizarPerfilSeleccionado, exportar } from "../utilidades/ayudas.js";
+
 export class GestorPerfiles {
     constructor() {
         this.perfiles = [];
@@ -66,6 +68,7 @@ export class GestorPerfiles {
 
     seleccionarPerfil(id) {
         this.seleccionado = this.obtenerPerfilPorId(id);
+        actualizarPerfilSeleccionado(this.seleccionado)
     }
 
     obtenerJSONPerfilSeleccionado() {
@@ -82,7 +85,7 @@ export class GestorPerfiles {
     }
 
     exportarPerfiles() {
-        this.#exportar(this.perfiles, "perfiles");
+        exportar(this.perfiles, "perfiles");
     }
 
     exportarPerfilPorId(id) {
@@ -93,7 +96,7 @@ export class GestorPerfiles {
         }
 
         const nombreArchivo = `perfil_${perfil.id}_${this.#sanearNombre(perfil.nombre)}`;
-        this.#exportar(perfil, nombreArchivo);
+        exportar(perfil, nombreArchivo);
     }
 
     exportarPerfilSeleccionado() {
@@ -102,20 +105,7 @@ export class GestorPerfiles {
             return;
         }
         const nombreArchivo = `perfil_${this.seleccionado.id}_${this.#sanearNombre(this.seleccionado.nombre)}`;
-        this.#exportar(this.seleccionado, nombreArchivo);
-    }
-
-    #exportar(datos, nombreArchivo) {
-        const datosJSON = JSON.stringify(datos, null, 2);
-        const blob = new Blob([datosJSON], { type: "application/json" });
-        const url = URL.createObjectURL(blob);
-
-        const enlace = document.createElement("a");
-        enlace.href = url;
-        enlace.download = `${nombreArchivo}.json`;
-        enlace.click();
-
-        URL.revokeObjectURL(url);
+        exportar(this.seleccionado, nombreArchivo);
     }
 
     #sanearNombre(nombre = "") {

@@ -10,67 +10,28 @@
 
 /*cabecera del contenedor de los mensajes*/
 .cabecera-conversacion {
+    width: 100%;
     background: rgba(0,0,0,.5);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-.cabecera-conversacion .datos {
+.cabecera-conversacion h2 {
     width: 100%;
     color: rgba(var(--rosa-vibrante));
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
-}
-
-.cabecera-conversacion .datos h2 {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bolder;
 }
 
-.cabecera-conversacion .acciones-conversacion {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-}
-
-.boton-ver, .boton-seleccionar {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    justify-content: center;
-}
-
-.boton-ver {
-    background: rgba(var(--morado-medio), 0.8);
-    color: white;
-}
-
-.boton-ver:hover {
-    background: rgba(var(--morado-oscuro), 0.9);
-}
-
-.boton-seleccionar {
-    background: rgba(var(--amarillo-dorado), 0.9);
-    color: #000;
-}
-
-.boton-seleccionar:hover {
-    background: rgba(var(--verde-festivo), 0.9);
+.cabecera-conversacion .acciones{
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 0;
 }
 
 /*contenedor de los mensajes*/
@@ -188,6 +149,9 @@
     color: rgba(var(--verde-festivo));
     text-align: center;
     margin: 0;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* Contenedor mensaje nuevo */
