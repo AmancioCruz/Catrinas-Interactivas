@@ -1,4 +1,4 @@
-import { actualizarPerfilSeleccionado, exportar } from "../utilidades/ayudas.js";
+import { exportar } from "../utilidades/ayudas.js";
 
 export class GestorPerfiles {
     constructor() {
@@ -68,7 +68,7 @@ export class GestorPerfiles {
 
     seleccionarPerfil(id) {
         this.seleccionado = this.obtenerPerfilPorId(id);
-        actualizarPerfilSeleccionado(this.seleccionado)
+        //actualizarPerfilSeleccionado(this.seleccionado)
     }
 
     obtenerJSONPerfilSeleccionado() {

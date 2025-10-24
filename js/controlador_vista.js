@@ -1,3 +1,4 @@
+import { peticion } from "./LMStudio/peticion.js";
 import { peticionOllama } from "./ollama/peticion_ollama.js";
 import { actualizarNombrePerfilSeleccionado, consultarTarjetaSeleccionada, exportar, formatear_texto, formatearPersonaje, Mensaje } from "./utilidades/ayudas.js";
 import { GestorVista } from "./vistas/gestor_de_vista.js";
@@ -13,7 +14,7 @@ export function crearFuncionesBotones(gestor_perfiles, gestor_tarjetas) {
             console.log('Mostrar perfil completo:', id);
         },
         seleccionarTarjeta: (id) => {
-            // Quita la clase 'tarjeta-seleccionada' de todas las tarjetas
+            /* Quita la clase 'tarjeta-seleccionada' de todas las tarjetas
             document.querySelectorAll('.tarjeta').forEach(tarjeta => {
                 tarjeta.classList.remove('tarjeta-seleccionada');
             });
@@ -25,77 +26,45 @@ export function crearFuncionesBotones(gestor_perfiles, gestor_tarjetas) {
             const tarjetaSeleccionada = document.querySelector(`#tarjeta_${id}`);
             if (tarjetaSeleccionada) tarjetaSeleccionada.classList.add('tarjeta-seleccionada');
 
-            actualizarNombrePerfilSeleccionado(consultarTarjetaSeleccionada());
+            actualizarNombrePerfilSeleccionado(consultarTarjetaSeleccionada());*/
         },
         exportar(datos, nombreArchivo) {
             exportar(datos, nombreArchivo);
         },
-        async enviarMensajeOllama() {
+        /*async enviarMensaje() {
             const prompt = document.querySelector('#texto_prompt');
             const mensaje = new Mensaje(prompt.value);
-            prompt.value = ' ';
 
-            const perfil = formatearPersonaje(gestor_perfiles.seleccionado);
-
-            const formatoRespuesta = `
-Respond STRICTLY in Spanish, using ONLY the following JSON structure with three main levels:
-
-{
-  "respuesta": "What the character says, written in natural Spanish dialogue.",
-  "gestos": "Describe the character's body movement, posture, and facial expressions.",
-  "voz": "Describe the tone, speed, intensity, and emotional state of the voice."
-}
-
-Example of response format (keep it in JSON):
-{
-  "respuesta": "¡Saludos, noble viajero! Hoy el honor guía nuestros pasos.",
-  "gestos": "Golpea el puño sobre el pecho y levanta la mirada con orgullo.",
-  "voz": "Tono grave y solemne, habla despacio con pausas marcadas, emoción entusiasta."
-}
-`;
-
-            const prompt_enviar = `
-1. You are a character with the following profile:
-${perfil}
-
-2. Follow these response instructions exactly:
-${formatoRespuesta}
-
-3. User's question or message:
-"${mensaje.mensaje}"
-
-Remember:
-- Answer completely in Spanish.
-- Keep the response strictly in JSON format as shown above.
-- Do not add explanations or text outside the JSON structure.
-`;
             const gestor_vista = new GestorVista(gestor_perfiles.obtenerPerfiles);
 
             const contenedor_mensajes = document.querySelector('#contenedor-mensajes');
             contenedor_mensajes.appendChild(gestor_vista.agregarMensajeNuevo(mensaje));
             contenedor_mensajes.scrollTop = contenedor_mensajes.scrollHeight;
 
-            let respuesta = await peticionOllama(prompt_enviar);
+            const perfil = formatearPersonaje(gestor_perfiles.seleccionado);
 
-            
+            const animaciones = gestor_perfiles.seleccionado.animaciones_disponibles;
+            const estados_de_animo = gestor_perfiles.seleccionado.estados_animo_disponibles;
 
+            const formatoRespuesta = `Eres un personaje con el siguiente perfil: ${perfil}.
+Responde ÚNICAMENTE en el siguiente formato JSON válido:
 
-            respuesta = respuesta.match(/{.*}/s);
-            respuesta = JSON.parse(respuesta[0]);
+{
+  "respuesta": "tu respuesta al usuario",
+  "gestos": "gestos que realizas al responder",
+  "voz": "tipo de voz o tono con el que respondes",
+  "animacion_seleccionada": "elige UNA animación de la siguiente lista: ${animaciones}",
+  "estado_de_animo_seleccionado": "elige UNO de los siguientes estados de ánimo: ${estados_de_animo}"
+}
 
-            const respuesta_nueva = new Mensaje(
-                respuesta.respuesta,
-                gestor_perfiles.seleccionado.nombre,
-                respuesta.gestos,
-                respuesta.voz
-            )
+No escribas nada fuera del JSON. No expliques, solo responde con el objeto JSON.`;
 
-            console.log(respuesta_nueva);
+            console.log(estados_de_animo)
 
+            const respuesta = await peticion(formatoRespuesta, mensaje.mensaje);
 
-            contenedor_mensajes.appendChild(gestor_vista.agregarMensajeNuevo(respuesta_nueva));
-            contenedor_mensajes.scrollTop = contenedor_mensajes.scrollHeight;
-        }
+            console.log(respuesta);
+        }*/
     };
 }
 

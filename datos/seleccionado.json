@@ -1,0 +1,22 @@
+{
+  "id_perfil": 2,
+  "id_vestido": 1,
+  "emocion_actual": "triste",
+  "animaciones_disponibles": [
+    "sentarse",
+    "saludar",
+    "cambiar_vestido",
+    "felicidad",
+    "indignacion",
+    "explicar",
+    "alejarse"
+  ],
+  "estados_animo_disponibles": [
+    "alegre",
+    "curiosa",
+    "enojado",
+    "indignacion",
+    "explicar",
+    "alejarse"
+  ]
+}

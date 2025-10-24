@@ -46,7 +46,7 @@ export class GestorVista {
             contenedores.mensajes.appendChild(this.agregarMensajeNuevo(mensaje));
         });
 
-        contenedores.entrada.append(
+        /*contenedores.entrada.append(
             crear_elemento('input', {
                 id: 'texto_prompt',
                 class: 'input-entrada-texto',
@@ -56,9 +56,9 @@ export class GestorVista {
                 clases: 'boton-enviar',
                 icono: 'fa-solid fa-arrow-right',
                 texto: 'Enviar',
-                onClick: () => funciones_botones.enviarMensajeOllama()
+                onClick: () => funciones_botones.enviarMensaje()
             })
-        );
+        );*/
 
         Object.values(contenedores).forEach(contenedor_actual => this.contenedor.appendChild(contenedor_actual));
         return this.contenedor;
@@ -134,13 +134,13 @@ export class GestorVista {
                 icono: 'fas fa-eye',
                 texto: 'Ver Perfil',
                 onClick: () => funciones_botones.mostrarPerfil(perfil.id)
-            },
+            }/*,
             {
                 clases: 'boton-acciones boton-seleccionar',
                 icono: 'fas fa-check',
                 texto: 'Seleccionar',
                 onClick: () => funciones_botones.seleccionarTarjeta(perfil.id)
-            }
+            }*/
         ];
         crear_botones(botones, acciones);
 
@@ -218,7 +218,7 @@ export class GestorVista {
             }
         });
 
-        crear_botones(botones, contenedores.acciones);
+        //crear_botones(botones, contenedores.acciones);
         Object.values(contenedores).forEach(contenedor_actual => contenedorPerfil.appendChild(contenedor_actual));
 
         return contenedorPerfil;

@@ -1,0 +1,20 @@
+[
+  {
+    "vestido": {
+      "id": 1,
+      "personalidad": "alegre y extrovertida",
+      "colores": "rosa mexicano, amarillo pastel y blanco",
+      "tipo_tela": "algodón ligero con bordados florales",
+      "textura": "suave, con detalles bordados y relieve en las flores"
+    }
+  },
+  {
+    "vestido": {
+      "id": 2,
+      "personalidad": "serena y elegante",
+      "colores": "azul profundo con toques plateados",
+      "tipo_tela": "seda satinada con encaje en los bordes",
+      "textura": "lisa y brillante con acabado satinado"
+    }
+  }
+]

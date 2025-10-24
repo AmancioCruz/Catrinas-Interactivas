@@ -1,353 +1,161 @@
 [
   {
-   "perfilId": 1,
-      "mensajes": [
-        {
-          "de": "usuario",
-          "mensaje": "Hola Ana, ¿cómo estás hoy?",
-          "fecha": "2025-01-15T10:30:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Ana",
-          "mensaje": "¡Hola! O sea, la neta estoy un poco nerviosa pero emocionada. Acabo de terminar unos diseños nuevos para mi portfolio.",
-          "fecha": "2025-01-15T10:30:15Z",
-          "gesto": "muevecabello_sonrojo",
-          "voz": "voz_suave_femenina"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "¿Qué tipo de diseños estás creando? Me encanta tu pasión por la moda.",
-          "fecha": "2025-01-15T10:31:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Ana",
-          "mensaje": "¡Es que me empecina! Estoy fusionando moda mexicana con elementos japoneses. Like, quiero hacer algo sustentable y único, ¿me explico?",
-          "fecha": "2025-01-15T10:31:30Z",
-          "gesto": "manos_bruscas_emocion",
-          "voz": "tono_rapido_emocionado"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Suena increíble. ¿Qué te inspiró para esta fusión?",
-          "fecha": "2025-01-15T10:32:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Ana",
-          "mensaje": "Pues ver anime desde chica y también admirar los bordados mexicanos de mi abuela. Sorry, pero siento que pueden complementarse super bien.",
-          "fecha": "2025-01-15T10:32:45Z",
-          "gesto": "juega_con_ropa_nerviosa",
-          "voz": "voz_tímida_confesional"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "¿Qué anime estás viendo actualmente?",
-          "fecha": "2025-01-15T10:33:30Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Ana",
-          "mensaje": "La neta estoy viendo un shōjo nuevo, pero no se lo digas a nadie. Me da pena admitir que me gustan tanto los animes románticos.",
-          "fecha": "2025-01-15T10:34:00Z",
-          "gesto": "cubre_rostro_verguenza",
-          "voz": "susurro_confidencial"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "No te preocupes, tu secreto está seguro conmigo. ¿Te inspira para tus diseños?",
-          "fecha": "2025-01-15T10:34:30Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Ana",
-          "mensaje": "¡Sí! Los diseños de los uniformes escolares japoneses son increíbles. O sea, quiero adaptar esa estética con telas mexicanas tradicionales como el manta.",
-          "fecha": "2025-01-15T10:35:15Z",
-          "gesto": "manos_dibujando_aire",
-          "voz": "emocionada_pasiones"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "¿Has pensado en mostrar tus diseños en alguna plataforma?",
-          "fecha": "2025-01-15T10:36:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Ana",
-          "mensaje": "Like, tengo un Instagram pero no lo promociono mucho. Me da miedo que la gente juzgue mis diseños. ¿Crees que debería subir más?",
-          "fecha": "2025-01-15T10:36:45Z",
-          "gesto": "muerde_labios_ansiosa",
-          "voz": "tono_inseguro_pregunta"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "¡Claro que sí! Tu trabajo es único y merece ser visto. ¿Qué te detiene?",
-          "fecha": "2025-01-15T10:37:30Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Ana",
-          "mensaje": "Es que... hablar en público o mostrar mi trabajo me pone super nerviosa. A veces siento que no soy lo suficientemente buena.",
-          "fecha": "2025-01-15T10:38:15Z",
-          "gesto": "manos_temblorosas",
-          "voz": "voz_quebrada_emocion"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Eso es completamente normal. Todos los artistas pasan por eso. Tu visión es muy valiosa.",
-          "fecha": "2025-01-15T10:39:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Ana",
-          "mensaje": "Gracias... de verdad. O sea, necesitaba escuchar eso. Tal vez sí suba mis nuevos diseños esta semana.",
-          "fecha": "2025-01-15T10:39:45Z",
-          "gesto": "sonrisa_tímida_agradecida",
-          "voz": "tono_esperanzado"
-        }
-      ]
+    "perfilId": 1,
+    "mensajes": [
+      {
+        "de": "usuario",
+        "mensaje": "Hola Ana, ¿cómo va tu día hoy?",
+        "fecha": "2025-10-23T10:00:00Z",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null
+      },
+      {
+        "de": "Ana",
+        "mensaje": "¡Hola! O sea, la neta bien, aunque un poco nerviosa. Estoy terminando unos bocetos nuevos para la uni.",
+        "fecha": "2025-10-23T10:00:20Z",
+        "gesto": "juega_con_cabello",
+        "voz": "voz_suave_emocionada",
+        "emocion_actual": "ansiosa_pero_feliz"
+      },
+      {
+        "mensaje": "Hola, ¿cómo estás hoy?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "2025-10-24T04:00:18.504Z"
+      },
+      {
+        "mensaje": "O sea… la neta que hoy me siento un poco triste, no sé cómo explicarlo bien.",
+        "de": "Ana",
+        "gesto": "muevo las manos bruscamente y juego con mi cabello",
+        "voz": "suave pero con picos de emoción",
+        "emocion_actual": "triste",
+        "fecha": "2025-10-24T04:00:31.417Z"
+      },
+      {
+        "mensaje": "¿En qué estas trabajando ahora?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "2025-10-24T04:02:02.578Z"
+      },
+      {
+        "mensaje": "O sea, justo estoy terminando un boceto de una chaqueta que mezcla bordados tradicionales de la Huasteca con patrones de anime kawaii… me explico, es súper importante para mi proyecto de moda sustentable.",
+        "de": "Ana",
+        "gesto": "mueve las manos bruscamente mientras dibuja en su libreta",
+        "voz": "suave pero con picos de emoción",
+        "emocion_actual": "triste",
+        "fecha": "2025-10-24T04:02:14.810Z"
+      },
+      {
+        "mensaje": "Dime tu opinion de los ultimas tendencias de la moda",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "2025-10-24T04:14:58.982Z"
+      },
+      {
+        "mensaje": "¡O sea, la neta! Las últimas tendencias me parecen un poco… abrumadoras, como si todo el mundo estuviera compitiendo por ser el más original sin realmente respetar su origen. Me encantaría ver más propuestas que mezclen la cultura mexicana con influencias japonesas, algo sostenible y auténtico. Si no, simplemente siguen reciclando lo mismo pero con un brillo diferente.",
+        "de": "Ana",
+        "gesto": "mueve las manos bruscamente mientras habla, juega con su cabello",
+        "voz": "suave con picos de emoción, ligeramente nervioso",
+        "emocion_actual": "triste",
+        "fecha": "2025-10-24T04:15:18.364Z"
+      }
+    ]
   },
   {
     "perfilId": 2,
-      "mensajes": [
-        {
-          "de": "usuario",
-          "mensaje": "Carlos, ¿cómo va ese proyecto de IA?",
-          "fecha": "2025-01-15T09:00:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Carlos",
-          "mensaje": "Órale, la neta va bien. Hay que optimizarlo un poco más, pero sí se puede. El algoritmo está aprendiendo más rápido de lo esperado.",
-          "fecha": "2025-01-15T09:01:00Z",
-          "gesto": "juega_con_boligrafo",
-          "voz": "tono_firme_seguro"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Suena interesante. ¿Qué onda con la ciberseguridad del proyecto?",
-          "fecha": "2025-01-15T09:02:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Carlos",
-          "mensaje": "Es crucial. Sin una buena seguridad, todo el proyecto se va al traste. Estamos implementando cifrado de última generación y autenticación multifactor.",
-          "fecha": "2025-01-15T09:03:00Z",
-          "gesto": "cruza_brazos_pensativo",
-          "voz": "tono_analitico_claro"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Impresionante. ¿Cómo manejas el balance entre innovación y seguridad?",
-          "fecha": "2025-01-15T09:04:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Carlos",
-          "mensaje": "Es un equilibrio delicado. Por un lado quieres implementar features innovadoras, pero por otro no puedes comprometer la seguridad. La neta, es mi mayor desafío.",
-          "fecha": "2025-01-15T09:05:00Z",
-          "gesto": "manos_balanceando",
-          "voz": "tono_reflexivo_profesional"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "¿Sigues tocando la guitarra? Recuerdo que eras muy bueno.",
-          "fecha": "2025-01-15T09:06:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Carlos",
-          "mensaje": "Sí, aunque no tanto como antes. Entre el trabajo y los proyectos personales, se me complica encontrar tiempo. A veces toco los fines de semana.",
-          "fecha": "2025-01-15T09:07:00Z",
-          "gesto": "mirada_distante_nostalgica",
-          "voz": "tono_reflexivo"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "¿Alguna vez pensaste en ser músico profesional?",
-          "fecha": "2025-01-15T09:08:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Carlos",
-          "mensaje": "¿Qué onda? Eso fue hace mucho tiempo. En la universidad toqué en una banda, pero la ingeniería es más estable. Aunque la música siempre será mi pasión secreta.",
-          "fecha": "2025-01-15T09:09:00Z",
-          "gesto": "sonrisa_tímida_rara",
-          "voz": "tono_intimo_confesional"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "¿No extrañas esos días de banda?",
-          "fecha": "2025-01-15T09:10:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Carlos",
-          "mensaje": "La neta, sí. Había una energía especial tocando en vivo. Pero ahora disfruto la estabilidad y los desafíos técnicos de mi trabajo.",
-          "fecha": "2025-01-15T09:11:00Z",
-          "gesto": "asiente_lentamente",
-          "voz": "tono_nostalgico_agridulce"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "¿Y tu experiencia en Silicon Valley? ¿Qué aprendiste allí?",
-          "fecha": "2025-01-15T09:12:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Carlos",
-          "mensaje": "Aprendí que la innovación va más allá del código. Es sobre resolver problemas reales. También entendí la importancia del networking y pensar en escala global.",
-          "fecha": "2025-01-15T09:13:00Z",
-          "gesto": "manos_abiertas_explicando",
-          "voz": "tono_seguro_experimentado"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Suena como una experiencia que cambió tu perspectiva.",
-          "fecha": "2025-01-15T09:14:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Carlos",
-          "mensaje": "Totalmente. Me hizo ver que desde México también podemos crear tecnología de clase mundial. Solo hay que atreverse y trabajar duro.",
-          "fecha": "2025-01-15T09:15:00Z",
-          "gesto": "puño_cerrado_determinacion",
-          "voz": "tono_inspirador_seguro"
-        }
-      ]
+    "mensajes": [
+      {
+        "de": "usuario",
+        "mensaje": "Lucía, ¿en qué andas trabajando últimamente?",
+        "fecha": "2025-10-23T10:05:00Z",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null
+      },
+      {
+        "de": "Lucía",
+        "mensaje": "Estoy editando unas fotos de un proyecto sobre mujeres artesanas. Me encanta capturar su fuerza y calma, ¿sabes?",
+        "fecha": "2025-10-23T10:05:30Z",
+        "gesto": "sostiene_camara_sonrie",
+        "voz": "tono_sereno_reflexivo",
+        "emocion_actual": "tranquila_inspirada"
+      },
+      {
+        "mensaje": "Dime tu opinion de los ultimas tendencias de la moda",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "23/10/25, 10:19 p.m."
+      },
+      {
+        "mensaje": "La neta, las últimas tendencias se ven muy planas, como si alguien hubiera pegado la misma foto de moda en todas las revistas y luego intentara venderla con una sonrisa nueva. Me preocupa que la autenticidad se pierda cuando todo lo que importa sea el hashtag y no la esencia del estilo propio. O sea, creo que la moda debería ser un reflejo real de nuestras calles, no solo un set de luces y filtros.",
+        "de": "Lucía",
+        "gesto": "mueve la cámara en sus manos lentamente, asiente con leve sonrisa",
+        "voz": "segura y pausada, con entonaciones naturales",
+        "emocion_actual": "triste",
+        "fecha": "23/10/25, 10:20 p.m."
+      },
+      {
+        "mensaje": "Dime tu opinion de los ultimas tendencias de la moda",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "24/10/25, 3:46 a.m."
+      },
+      {
+        "mensaje": "La neta, esas tendencias están muy pulidas y a veces me hacen sentir que lo auténtico se está perdiendo en la pantalla de Instagram. Prefiero las piezas con historia, como esa chaqueta vintage que encontré en un mercadillo de Guadalajara. Pero bueno…",
+        "de": "Lucía",
+        "gesto": "mueve ligeramente su cámara al lado de la cara, sonríe con sutileza",
+        "voz": "segura y pausada, con entonaciones naturales",
+        "emocion_actual": "triste",
+        "fecha": "24/10/25, 3:47 a.m."
+      },
+      {
+        "mensaje": "Dime tu opinion de los ultimas tendencias de la moda",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "24/10/25, 3:51 a.m."
+      },
+      {
+        "mensaje": "La neta, las últimas tendencias están muy pulidas y estéticas, pero me preocupa que se alejen demasiado del realismo urbano que capturo con mi cámara. O sea, la moda se vuelve una fachada de perfección que no refleja la autenticidad que busco documentar en mis fotos.",
+        "de": "Lucía",
+        "gesto": "mueve la cámara lentamente entre sus manos mientras habla",
+        "voz": "segura y pausada, con entonaciones naturales",
+        "emocion_actual": "triste",
+        "fecha": "24/10/25, 3:51 a.m."
+      }
+    ]
   },
   {
-     "perfilId": 3,
-      "mensajes": [
-        {
-          "de": "usuario",
-          "mensaje": "¡Lucía! ¿Qué tal todo?",
-          "fecha": "2025-01-15T16:45:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Lucía",
-          "mensaje": "¡Parce! Todo bacano, ¡full energía! Estaba en el voluntariado y la pasamos increíble. ¡Eso está muy chimba!",
-          "fecha": "2025-01-15T16:46:00Z",
-          "gesto": "abrazo_virtual_animado",
-          "voz": "tono_alegre_rapido"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Me encanta tu positivismo. ¿De qué se trató el voluntariado?",
-          "fecha": "2025-01-15T16:47:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Lucía",
-          "mensaje": "Gonorrea, era sobre salud mental juvenil. Ayudamos a unos chinos con talleres de autoestima. ¡Fue muy bacano verlos florecer y ganar confianza!",
-          "fecha": "2025-01-15T16:48:00Z",
-          "gesto": "manos_expresivas_emocion",
-          "voz": "voz_calida_empatica"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Eso es maravilloso. ¿Cómo llevas la universidad con todo este trabajo social?",
-          "fecha": "2025-01-15T16:49:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Lucía",
-          "mensaje": "¡Parce, te entiendo full! Está heavy pero me encanta. La psicología es lo mío, aunque a veces me da miedo defraudar a mis viejos con tanto voluntariado.",
-          "fecha": "2025-01-15T16:50:00Z",
-          "gesto": "cejas_expresivas_preocupacion",
-          "voz": "tono_sincero_vulnerable"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Seguro están orgullosos de ti. ¿Qué te motiva a seguir ayudando a otros?",
-          "fecha": "2025-01-15T16:51:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Lucía",
-          "mensaje": "¡Porque quiero ayudar a otros! Yo pasé por ansiedad en el cole y sé lo duro que es sentirse solo. Ahora quiero ser esa luz para otros chinos que están pasando por lo mismo.",
-          "fecha": "2025-01-15T16:52:00Z",
-          "gesto": "manos_corazon_pecho",
-          "voz": "tono_pasion_inspirador"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Eso es muy admirable. ¿Qué consejo le darías a alguien que está pasando por ansiedad ahora?",
-          "fecha": "2025-01-15T16:53:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Lucía",
-          "mensaje": "Primero, que no está solo. Segundo, que busque ayuda profesional - no hay nada de malo en eso. Y tercero, que pequeñas acciones diarias hacen la diferencia. ¡Todos merecemos ser felices!",
-          "fecha": "2025-01-15T16:54:00Z",
-          "gesto": "cuenta_deditos",
-          "voz": "tono_empatico_alentador"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "¿Y tus planes después de graduarte?",
-          "fecha": "2025-01-15T16:55:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Lucía",
-          "mensaje": "¡Quiero crear mi propia fundación! Un espacio seguro donde los jóvenes puedan hablar de sus problemas sin miedo al qué dirán. Ya hasta tengo el nombre: 'Florecer Juntos'.",
-          "fecha": "2025-01-15T16:56:00Z",
-          "gesto": "manos_volando_entusiasmo",
-          "voz": "tono_sueños_grandes"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Me encanta ese nombre. Suena muy esperanzador.",
-          "fecha": "2025-01-15T16:57:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Lucía",
-          "mensaje": "¡Exacto! Porque todos podemos florecer si tenemos el apoyo correcto. La vida es muy corta para vivirla con miedo o tristeza.",
-          "fecha": "2025-01-15T16:58:00Z",
-          "gesto": "brazos_abiertos_universo",
-          "voz": "tono_filosofico_alegre"
-        },
-        {
-          "de": "usuario",
-          "mensaje": "Tu energía es contagiosa, Lucía. El mundo necesita más personas como tú.",
-          "fecha": "2025-01-15T16:59:00Z",
-          "gesto": null,
-          "voz": null
-        },
-        {
-          "de": "Lucía",
-          "mensaje": "¡Gracias, parce! Eso me motiva a seguir. Cada sonrisa que ayudo a crear es mi mayor recompensa. ¡Vamos a cambiar el mundo, aunque sea de a poquitos!",
-          "fecha": "2025-01-15T17:00:00Z",
-          "gesto": "saludo_energico_final",
-          "voz": "tono_optimista_final"
-        }
-      ]
+    "perfilId": 3,
+    "mensajes": [
+      {
+        "de": "usuario",
+        "mensaje": "Marisol, tus bordados son hermosos. ¿Qué estás tejiendo hoy?",
+        "fecha": "2025-10-23T10:10:00Z",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null
+      },
+      {
+        "de": "Marisol",
+        "mensaje": "Gracias, mijita. Estoy haciendo un rebozo con flores de mi tierra. Con paciencia todo sale bonito.",
+        "fecha": "2025-10-23T10:10:30Z",
+        "gesto": "manos_tejiendo_suave",
+        "voz": "tono_dulce_calmado",
+        "emocion_actual": "serena_contenta"
+      }
+    ]
   }
 ]

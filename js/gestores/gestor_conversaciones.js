@@ -8,7 +8,7 @@ export class GestorConversaciones {
     cargarConversaciones(arreglo_conversaciones) {
         //falta verificar si el arreglo no es vacio
         this.listaConversaciones = arreglo_conversaciones;
-        console.log(this.listaConversaciones);
+        //console.log(this.listaConversaciones);
     }
 
     obtenerListaConversaciones() {
@@ -45,12 +45,12 @@ export class GestorConversaciones {
         try {
             if (this.#verificarCargaDeLista()) {
                 const indice_conversacion = this.listaConversaciones.findIndex(conversacion => conversacion.perfilId === id);
-                console.log(indice_conversacion);
+                //console.log(indice_conversacion);
                 if (indice_conversacion === -1)
                     throw new Error('No se encontro la ocnversacion, verifique el id');
                 this.listaConversaciones[indice_conversacion].mensajes.push(mensaje);
                 
-                this.#exportar(this.listaConversaciones, 'conversaciones')
+                //this.#exportar(this.listaConversaciones, 'conversaciones')
             }
         }
         catch (error) {

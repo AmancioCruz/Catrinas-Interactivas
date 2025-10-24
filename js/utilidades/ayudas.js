@@ -1,10 +1,14 @@
 export class Mensaje {
-    constructor(mensaje, de = 'usuario', gesto = null, voz = null, fecha = new Date().toISOString()) {
+    constructor(mensaje, de = 'usuario', gesto = null, voz = null, emocion_actual = null, fecha = new Date()) {
         this.mensaje = mensaje;
         this.de = de;
         this.gesto = gesto;
         this.voz = voz;
-        this.fecha = fecha;
+        this.emocion_actual = emocion_actual;
+        this.fecha = fecha.toLocaleString("es-MX", {
+            dateStyle: "short",
+            timeStyle: "short"
+        });
     }
 }
 
@@ -144,7 +148,7 @@ export function formatearPersonaje(personaje) {
             }
             perfil_personaje += `\n${formatear_texto(key)}:\n{\n  ${subProps.join(',\n  ')}\n}, `;
         }
-    } 
-// Eliminar la última coma y espacio
-return perfil_personaje.slice(0, -2);
+    }
+    // Eliminar la última coma y espacio
+    return perfil_personaje.slice(0, -2);
 }
