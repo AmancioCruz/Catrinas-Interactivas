@@ -1,99 +1,47 @@
 import { crearConversacionesEnVista, crearTarjetasEnVista } from "./controlador_vista.js";
 import { GestorPerfiles } from "./gestores/gestor_perfiles.js";
-import { actualizarNombrePerfilSeleccionado, actualizarPerfilSeleccionado, consultarTarjetaSeleccionada, convertir_de_JSON_a_Objeto } from "./utilidades/ayudas.js";
-import { renderizarContenido } from "./controlador_vista.js";
+import { actualizarNombrePerfilSeleccionado, actualizarPerfilSeleccionado, convertir_de_JSON_a_Objeto } from "./utilidades/ayudas.js";
 import { GestorConversaciones } from "./gestores/gestor_conversaciones.js";
 
 const gestor_perfiles = new GestorPerfiles();
-
-const perfiles = await convertir_de_JSON_a_Objeto('datos/perfiles.json');
-
-const seleccionado = await convertir_de_JSON_a_Objeto('datos/seleccionado.json');
-
-const conversaciones = await convertir_de_JSON_a_Objeto('datos/conversaciones.json');
-
-//localStorage.setItem('perfiles', JSON.stringify(perfiles));
-
-const perfil_vacio = {
-    id: '',
-    nombre: '',
-    datosBasicos: {
-        edad: '',
-        genero: '',
-        nacionalidad: '',
-        ciudad: '',
-        ocupacion: '',
-        claseSocial: ''
-    },
-    personalidad: {
-        rasgos: '',
-        estadoAnimo: '',
-        miedos: '',
-        metas: ''
-    },
-    formaHablar: {
-        modismos: '',
-        tonoVoz: '',
-        velocidad: '',
-        frases: ''
-    },
-    intereses: {
-        hobbies: '',
-        gustos: '',
-        temasApasionan: '',
-        temasEvita: ''
-    },
-    lenguajeCorporal: {
-        gestos: '',
-        postura: '',
-        expresiones: '',
-        movimientos: ''
-    },
-    contexto: {
-        situacion: '',
-        estadoAnimo: '',
-        relacion: ''
-    },
-    extras: {
-        backstory: '',
-        objetos: '',
-        secretos: ''
-    }
-};
-
-
+const gestor_conversaciones = new GestorConversaciones();
 
 async function IniciarApp() {
-    /**
-     */
+    const [perfiles, seleccionado, conversaciones] = await Promise.all([
+        convertir_de_JSON_a_Objeto('datos/perfiles.json'),
+        convertir_de_JSON_a_Objeto('datos/seleccionado.json'),
+        convertir_de_JSON_a_Objeto('datos/conversaciones.json')]);
 
     gestor_perfiles.cargarPerfiles(perfiles);
     gestor_perfiles.seleccionarPerfil(seleccionado.id_perfil);
-    actualizarPerfilSeleccionado(gestor_perfiles.seleccionado);
-    //console.log(gestor_perfiles);
-    actualizarNombrePerfilSeleccionado(gestor_perfiles.seleccionado);
-}
-
-
-
-document.querySelector('#boton_ver').addEventListener('click', () => {
-    crearTarjetasEnVista(gestor_perfiles);
-})
-
-document.querySelector('#boton-conversar').addEventListener('click', () => {
-    const gestor_conversaciones = new GestorConversaciones();
-
     gestor_conversaciones.cargarConversaciones(conversaciones);
 
+    actualizarPerfilSeleccionado(gestor_perfiles.seleccionado);
+    actualizarNombrePerfilSeleccionado(gestor_perfiles.seleccionado);
 
-    crearConversacionesEnVista(gestor_conversaciones.obtenerConversacionPorID(gestor_perfiles.seleccionado.id), gestor_perfiles);
+    cargarConversaciones();
+}
+
+function cargarConversaciones() {
+    const conversacion = gestor_conversaciones.obtenerConversacionPorID(gestor_perfiles.seleccionado.id);
+
+    if (conversacion) {
+        crearConversacionesEnVista(conversacion, gestor_perfiles);
+    }
+    else {
+        console.error("No se cargo la conversacion de forma correcta");
+    }
 
     const contenedor_mensajes = document.querySelector('#contenedor-mensajes');
     contenedor_mensajes.scrollTop = contenedor_mensajes.scrollHeight;
+}
 
-    //gestor_conversaciones.agregarNuevoMensajeAConversacion(1);
+document.querySelector('#boton_ver').addEventListener('click', () => {
+    crearTarjetasEnVista(gestor_perfiles);
+});
+
+document.querySelector('#boton-conversar').addEventListener('click', ()=>{
+    cargarConversaciones();
 })
-
-
 
 IniciarApp();

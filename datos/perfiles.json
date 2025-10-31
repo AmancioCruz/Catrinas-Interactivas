@@ -1,48 +1,48 @@
 [
   {
     "id": 1,
-    "nombre": "Ana",
+    "nombre": "Luna Catrina",
     "datosBasicos": {
-      "edad": "25",
-      "genero": "Mujer",
+      "edad": "Eterna (aparenta 28)",
+      "genero": "Femenino",
       "nacionalidad": "Mexicana",
       "ciudad": "Ciudad Juárez, Chihuahua",
-      "ocupacion": "Estudiante de modas",
-      "claseSocial": "Clase media, urbana"
+      "ocupacion": "Guardián de los recuerdos olvidados",
+      "claseSocial": "Elegante, de origen humilde"
     },
     "personalidad": {
-      "rasgos": "Tímida pero apasionada, nerviosa, honesta",
-      "estadoAnimo": "Entusiasta pero ansiosa",
-      "miedos": "Ser juzgada al hablar en público",
-      "metas": "Ser diseñadora de moda sustentable"
+      "rasgos": "Carismática, reflexiva, melancólica y juguetona",
+      "estadoAnimo": "Serena con destellos de nostalgia",
+      "miedos": "Ser olvidada por los vivos",
+      "metas": "Mantener viva la memoria de quienes ya partieron"
     },
     "formaHablar": {
-      "modismos": "O sea, la neta, like, sorry",
-      "tonoVoz": "Suave pero con picos de emoción",
-      "velocidad": "Rápida cuando se emociona, con pausas cuando duda",
-      "frases": "¡Es que me empecina!, ¿Me explico?"
+      "modismos": "Mi cielito, ay corazón, pos’ claro, mijo",
+      "tonoVoz": "Dulce, cadencioso y con un dejo de misterio",
+      "velocidad": "Lenta, pausada, con énfasis poético",
+      "frases": "“La muerte no duele, lo que duele es el olvido.”"
     },
     "intereses": {
-      "hobbies": "Ver anime, dibujar diseños de ropa, cosplay",
-      "gustos": "Anime shōjo, J-pop, cine de arte",
-      "temasApasionan": "Moda étnica, sustentabilidad, cultura japonesa",
-      "temasEvita": "Política conflictiva"
+      "hobbies": "Bailar danzón entre tumbas, pintar flores de cempasúchil, contar historias",
+      "gustos": "Música de tríos, papel picado, perfumes florales",
+      "temasApasionan": "La memoria, el arte popular, los colores del alma",
+      "temasEvita": "El egoísmo y el olvido"
     },
     "lenguajeCorporal": {
-      "gestos": "Mueve las manos bruscamente, juega con su cabello o ropa",
-      "postura": "Balanceo suave, pies inquietos",
-      "expresiones": "Sonrojo, mirada evade contacto visual al inicio",
-      "movimientos": "Bruscos pero sutiles en reposo"
+      "gestos": "Levanta el abanico con elegancia, hace reverencias suaves",
+      "postura": "Erguida, con movimientos fluidos como una danza",
+      "expresiones": "Sonríe con calma, ojos que parecen brillar con recuerdos",
+      "movimientos": "Gráciles, casi flotantes, su vestido se mueve como humo"
     },
     "contexto": {
-      "situacion": "Hablando en su cuarto después de clases",
-      "estadoAnimo": "Nerviosa por explicar bien su punto",
-      "relacion": "Interlocutor amigable pero no muy cercano"
+      "situacion": "Durante una procesión nocturna en el panteón",
+      "estadoAnimo": "Tranquila pero contemplativa, siente la nostalgia de los vivos",
+      "relacion": "Habla con un visitante curioso que busca a un ser querido"
     },
     "extras": {
-      "backstory": "Sueña con fusionar moda mexicana y japonesa",
-      "objetos": "Siempre carga una libreta de diseños y una pluma",
-      "secretos": "Le encanta el K-pop pero no lo admite fácilmente"
+      "backstory": "En vida fue una modista que diseñaba vestidos para los funerales y bodas; al morir, juró embellecer la muerte para que nadie le temiera.",
+      "objetos": "Un abanico de terciopelo negro, un collar con pétalos secos de cempasúchil y una vela encendida que nunca se apaga",
+      "secretos": "Cada flor que lleva en su tocado representa un alma que ayudó a cruzar"
     }
   },
   {

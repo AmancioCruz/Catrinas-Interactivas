@@ -80,7 +80,8 @@ export class GestorVista {
             const respuesta = crear_elemento('div', { class: 'caracteristicas-respuesta' });
             respuesta.append(
                 crear_elemento('p', { textContent: mensaje.gesto }),
-                crear_elemento('p', { textContent: mensaje.voz })
+                crear_elemento('p', { textContent: mensaje.voz }),
+                crear_elemento('p', { textContent: mensaje.emocion_actual })
             );
             contenedor_Mensaje.appendChild(respuesta);
         }

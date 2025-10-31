@@ -1,7 +1,7 @@
 {
-  "id_perfil": 2,
+  "id_perfil": 1,
   "id_vestido": 1,
-  "emocion_actual": "triste",
+  "emocion_actual": "feliz",
   "animaciones_disponibles": [
     "sentarse",
     "saludar",

@@ -51,7 +51,7 @@ app.post("/mensaje", async (req, res) => {
   try {
     const { id_perfil, id_vestido, emocion_actual, mensaje_usuario } = req.body;
 
-    // 🔹 Validaciones básicas
+    //Validaciones básicas
     if (!id_perfil || isNaN(parseInt(id_perfil))) {
       return res.status(400).json({ error: "ID de perfil inválido o ausente." });
     }
@@ -69,7 +69,7 @@ app.post("/mensaje", async (req, res) => {
     }
 
     console.clear();
-    console.log("📩 Petición recibida:");
+    console.log("Petición recibida:");
     console.log("- ID perfil:", id_perfil);
     console.log("- ID vestido:", id_vestido);
     console.log("- Emoción actual:", emocion_actual);
@@ -99,10 +99,19 @@ app.post("/mensaje", async (req, res) => {
     // Formatea perfil y genera prompt
     const perfilFormateado = formatearPersonaje(gestorPerfiles.seleccionado);
 
+    const vestido = {
+      "id": 1,
+      "personalidad": "alegre y extrovertida",
+      "colores": "rosa mexicano, amarillo pastel y blanco",
+      "tipo_tela": "algodón ligero con bordados florales",
+      "textura": "suave, con detalles bordados y relieve en las flores"
+    };
+
     const formatoRespuesta = `
-Eres un personaje con el siguiente perfil:
+Eres una catrina con el siguiente perfil:
 ${perfilFormateado}
 Tu emoción actual es ${emocion_actual}.
+Que tu respuesta sea referente a el siguiente vestido: ${vestido},
 Responde ÚNICAMENTE en el siguiente formato JSON válido:
 {
   "respuesta": "tu respuesta al usuario",
@@ -136,7 +145,7 @@ No escribas nada fuera del JSON.
     res.json(respuestaIA);
 
   } catch (error) {
-    console.error("❌ Error en /mensaje:", error);
+    console.error("Error en /mensaje:", error);
     res.status(500).json({ error: "Error interno del servidor", detalle: error.message });
   }
 });
@@ -144,5 +153,5 @@ No escribas nada fuera del JSON.
 
 const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });

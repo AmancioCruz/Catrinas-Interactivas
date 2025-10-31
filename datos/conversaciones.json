@@ -3,68 +3,20 @@
     "perfilId": 1,
     "mensajes": [
       {
-        "de": "usuario",
-        "mensaje": "Hola Ana, ¿cómo va tu día hoy?",
-        "fecha": "2025-10-23T10:00:00Z",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null
-      },
-      {
-        "de": "Ana",
-        "mensaje": "¡Hola! O sea, la neta bien, aunque un poco nerviosa. Estoy terminando unos bocetos nuevos para la uni.",
-        "fecha": "2025-10-23T10:00:20Z",
-        "gesto": "juega_con_cabello",
-        "voz": "voz_suave_emocionada",
-        "emocion_actual": "ansiosa_pero_feliz"
-      },
-      {
-        "mensaje": "Hola, ¿cómo estás hoy?",
+        "mensaje": "¿Como te moriste?",
         "de": "usuario",
         "gesto": null,
         "voz": null,
         "emocion_actual": null,
-        "fecha": "2025-10-24T04:00:18.504Z"
+        "fecha": "30/10/25, 11:56 p.m."
       },
       {
-        "mensaje": "O sea… la neta que hoy me siento un poco triste, no sé cómo explicarlo bien.",
-        "de": "Ana",
-        "gesto": "muevo las manos bruscamente y juego con mi cabello",
-        "voz": "suave pero con picos de emoción",
-        "emocion_actual": "triste",
-        "fecha": "2025-10-24T04:00:31.417Z"
-      },
-      {
-        "mensaje": "¿En qué estas trabajando ahora?",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "2025-10-24T04:02:02.578Z"
-      },
-      {
-        "mensaje": "O sea, justo estoy terminando un boceto de una chaqueta que mezcla bordados tradicionales de la Huasteca con patrones de anime kawaii… me explico, es súper importante para mi proyecto de moda sustentable.",
-        "de": "Ana",
-        "gesto": "mueve las manos bruscamente mientras dibuja en su libreta",
-        "voz": "suave pero con picos de emoción",
-        "emocion_actual": "triste",
-        "fecha": "2025-10-24T04:02:14.810Z"
-      },
-      {
-        "mensaje": "Dime tu opinion de los ultimas tendencias de la moda",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "2025-10-24T04:14:58.982Z"
-      },
-      {
-        "mensaje": "¡O sea, la neta! Las últimas tendencias me parecen un poco… abrumadoras, como si todo el mundo estuviera compitiendo por ser el más original sin realmente respetar su origen. Me encantaría ver más propuestas que mezclen la cultura mexicana con influencias japonesas, algo sostenible y auténtico. Si no, simplemente siguen reciclando lo mismo pero con un brillo diferente.",
-        "de": "Ana",
-        "gesto": "mueve las manos bruscamente mientras habla, juega con su cabello",
-        "voz": "suave con picos de emoción, ligeramente nervioso",
-        "emocion_actual": "triste",
-        "fecha": "2025-10-24T04:15:18.364Z"
+        "mensaje": "Ay, mi cielo, el vestido que llevas ante mí es un lienzo de recuerdos, tejido con hilos de eternidad y pétalos de cempasúchil. Cada puntada narra una historia de vida y muerte, pues en mi tiempo como modista creé para los funerales y bodas lo que ahora se convierte en puente entre ambos mundos.",
+        "de": "Luna Catrina",
+        "gesto": "Levanta su abanico suavemente, luego alza el collar con pétalos secos como si señalara el camino del alma.",
+        "voz": "Dulce, cadencioso y con un dejo de misterio",
+        "emocion_actual": "feliz",
+        "fecha": "30/10/25, 11:57 p.m."
       }
     ]
   },
@@ -134,6 +86,166 @@
         "voz": "segura y pausada, con entonaciones naturales",
         "emocion_actual": "triste",
         "fecha": "24/10/25, 3:51 a.m."
+      },
+      {
+        "mensaje": "hola k hace ?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "24/10/25, 12:36 p.m."
+      },
+      {
+        "mensaje": "hola k hace ?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "24/10/25, 12:36 p.m."
+      },
+      {
+        "mensaje": "¡Hola! ¿Sabes? Estoy revisando mi equipo, buscando ese equilibrio entre la luz y el silencio que me inspira para seguir contando historias mexicanas. O sea, bueno…",
+        "de": "Lucía",
+        "gesto": "mueve suavemente su cámara alrededor de ella mientras habla",
+        "voz": "segura y pausada, con entonaciones naturales",
+        "emocion_actual": "triste",
+        "fecha": "24/10/25, 12:38 p.m."
+      },
+      {
+        "mensaje": "hola k hace ?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "29/10/25, 4:39 p.m."
+      },
+      {
+        "mensaje": "hola k hace ?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "29/10/25, 4:39 p.m."
+      },
+      {
+        "mensaje": "¡Hola! La neta, hoy la vibra está un poco apagada; me siento más pensativa que de costumbre, como cuando reviso mis fotos y no logro encontrar esa chispa que me inspira.",
+        "de": "Lucía",
+        "gesto": "Sostengo mi cámara con una mano mientras dejo caer suavemente el ojo al otro lado, como si estuviera buscando algo en la distancia.",
+        "voz": "Segura pero pausada, con un tono reflexivo que refleja el ánimo melancólico.",
+        "emocion_actual": "triste",
+        "fecha": "29/10/25, 4:40 p.m."
+      },
+      {
+        "mensaje": "hola k hace ?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "29/10/25, 4:42 p.m."
+      },
+      {
+        "mensaje": "¡Hola! ¿Qué onda? Oye, la neta no mucho, solo organizando mi equipo de cámara y revisando algunas fotos que tomé en la calle anoche. A veces me siento un poco triste por no haber publicado el fotolibro todavía, pero sigo adelante, ¿te das cuenta?",
+        "de": "Lucía",
+        "gesto": "mueve suavemente la cámara en sus manos mientras habla",
+        "voz": "segura y pausada con entonaciones naturales",
+        "emocion_actual": "triste",
+        "fecha": "29/10/25, 4:42 p.m."
+      },
+      {
+        "mensaje": "Como te fue en el dia de muertos ?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "29/10/25, 4:46 p.m."
+      },
+      {
+        "mensaje": "La neta, el Día de Muertos fue un desfile de colores y sombras que me recordó por qué sigo buscando la autenticidad. Me llevé fotos a casa que no van a terminar en una campaña corporativa, pero la nostalgia me dio ese toque melancólico que siempre buscas en mi trabajo.",
+        "de": "Lucía",
+        "gesto": "Muevo la cámara suavemente mientras hablo, dejo caer un ligero suspiro y sonrío con sutileza.",
+        "voz": "Segura y pausada, con entonaciones naturales.",
+        "emocion_actual": "triste",
+        "fecha": "29/10/25, 4:46 p.m."
+      },
+      {
+        "mensaje": "Hola, Buen dia",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "30/10/25, 10:59 a.m."
+      },
+      {
+        "mensaje": "¡Buenas! ¿Qué onda? La neta estoy un poco melancólica hoy, pero aquí sigo con mi cámara en mano.",
+        "de": "Lucía",
+        "gesto": "mueve la cámara ligeramente mientras habla, sonrisita tenue",
+        "voz": "segura y pausada, tono calmado",
+        "emocion_actual": "triste",
+        "fecha": "30/10/25, 11:01 a.m."
+      },
+      {
+        "mensaje": "¿Que vestido utilizarias el dia de Muertos?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "30/10/25, 11:35 a.m."
+      },
+      {
+        "mensaje": "La neta, no me quedo con un solo estilo. Prefiero algo que cuente una historia: una blusa de algodón con bordados tradicionales mezclada con un toque moderno, como una falda corta de denim reciclado y unas botas de cuero desgastado. Así dejo en claro que respeto la tradición pero también vivo mi propio ritmo.",
+        "de": "Lucía",
+        "gesto": "mueve ligeramente la cámara entre sus manos, levanta una ceja y sonríe suavemente",
+        "voz": "segura y pausada, con entonaciones naturales",
+        "emocion_actual": "triste",
+        "fecha": "30/10/25, 11:35 a.m."
+      },
+      {
+        "mensaje": "Hola",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "30/10/25, 11:37 a.m."
+      },
+      {
+        "mensaje": "¡Hola! ¿Qué onda? Estoy aquí organizando mi equipo, pero siempre me da gusto saludar a gente curiosa como tú. Si quieres saber algo sobre mi trabajo o simplemente charlar de fotografía, dime lo que necesites.",
+        "de": "Lucía",
+        "gesto": "Sonríe suavemente mientras mueve la cámara en sus manos",
+        "voz": "segura y pausada con entonaciones naturales",
+        "emocion_actual": "feliz",
+        "fecha": "30/10/25, 11:37 a.m."
+      },
+      {
+        "mensaje": "¿Como te moriste?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "30/10/25, 11:43 a.m."
+      },
+      {
+        "mensaje": "¡La neta! No me 'morí', pero dejé un trabajo de oficina y me lancé a la vida con mi cámara, porque lo que realmente quería era capturar historias reales y no solo reportar cifras. Fue una decisión loca al principio, pero cada foto que hago ahora tiene sentido.",
+        "de": "Lucía",
+        "gesto": "mueve suavemente su cámara colgando del cuello mientras habla",
+        "voz": "segura y pausada, con entonaciones naturales",
+        "emocion_actual": "feliz",
+        "fecha": "30/10/25, 11:44 a.m."
+      },
+      {
+        "mensaje": "¿Como te moriste?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "30/10/25, 11:49 a.m."
+      },
+      {
+        "mensaje": "No, la neta, yo todavía vivo y sigo tomando fotos de calles y carreteras. Si te refieres a mi 'muerte' simbólica, es cuando dejé el empleo de oficina para dedicarme a la fotografía, eso fue como un renacimiento, ¿te das cuenta?",
+        "de": "Lucía",
+        "gesto": "Mueve su cámara en sus manos con precisión, asiente ligeramente.",
+        "voz": "Segura y pausada, con entonaciones naturales",
+        "emocion_actual": "feliz",
+        "fecha": "30/10/25, 11:50 a.m."
       }
     ]
   },
