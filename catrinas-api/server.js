@@ -6,6 +6,7 @@ import { GestorConversaciones } from "../js/gestores/gestor_conversaciones.js";
 import { actualizarObjeto } from "../js/utilidades/archivos.js";
 import { formatearPersonaje, Mensaje } from "../js/utilidades/ayudas.js";
 import { peticion } from "../js/LMStudio/peticion.js";
+import { parse } from "path";
 
 
 const app = express();
@@ -17,6 +18,7 @@ app.use(express.static("public"));
 const RUTA_PERFILES = "../datos/perfiles.json";
 const RUTA_CONVERSACIONES = "../datos/conversaciones.json";
 const RUTA_SELECCIONADO = "../datos/seleccionado.json";
+const RUTA_VESTIDOS = "../datos/vestidos.json";
 
 const animaciones_disponibles = [
   "sentarse",
@@ -29,16 +31,16 @@ const animaciones_disponibles = [
 ];
 
 const estados_animo_disponibles = [
-  "alegre",
-  "curiosa",
+  "idle",
+  "feliz",
   "enojado",
-  "indignacion",
-  "explicar",
-  "alejarse"
+  "saludar",
+  "respondiendo"
 ];
 
 
 const perfiles = JSON.parse(await readFile(RUTA_PERFILES, "utf-8"));
+const vestidos = JSON.parse(await readFile(RUTA_VESTIDOS, "utf-8"));
 const gestorPerfiles = new GestorPerfiles();
 const gestorConversaciones = new GestorConversaciones();
 
@@ -52,11 +54,11 @@ app.post("/mensaje", async (req, res) => {
     const { id_perfil, id_vestido, emocion_actual, mensaje_usuario } = req.body;
 
     //Validaciones básicas
-    if (!id_perfil || isNaN(parseInt(id_perfil))) {
+    if (!id_perfil) {
       return res.status(400).json({ error: "ID de perfil inválido o ausente." });
     }
 
-    if (!id_vestido || isNaN(parseInt(id_vestido))) {
+    if (!id_vestido) {
       return res.status(400).json({ error: "ID de vestido inválido o ausente." });
     }
 
@@ -75,22 +77,23 @@ app.post("/mensaje", async (req, res) => {
     console.log("- Emoción actual:", emocion_actual);
     console.log("- Mensaje usuario:", mensaje_usuario);
 
+
     // Selecciona el perfil
-    gestorPerfiles.seleccionarPerfil(parseInt(id_perfil));
+    gestorPerfiles.seleccionarPerfil(id_perfil);
     if (!gestorPerfiles.seleccionado) {
       return res.status(404).json({ error: "Perfil no encontrado." });
     }
 
     // Guarda mensaje del usuario
     gestorConversaciones.agregarNuevoMensajeAConversacion(
-      parseInt(id_perfil),
+      id_perfil,
       new Mensaje(mensaje_usuario)
     );
 
     // Actualiza archivo seleccionado
     await actualizarObjeto(RUTA_SELECCIONADO, {
-      id_perfil: parseInt(id_perfil),
-      id_vestido: parseInt(id_vestido),
+      id_perfil: id_perfil,
+      id_vestido: id_vestido,
       emocion_actual,
       animaciones_disponibles,
       estados_animo_disponibles
@@ -99,19 +102,16 @@ app.post("/mensaje", async (req, res) => {
     // Formatea perfil y genera prompt
     const perfilFormateado = formatearPersonaje(gestorPerfiles.seleccionado);
 
-    const vestido = {
-      "id": 1,
-      "personalidad": "alegre y extrovertida",
-      "colores": "rosa mexicano, amarillo pastel y blanco",
-      "tipo_tela": "algodón ligero con bordados florales",
-      "textura": "suave, con detalles bordados y relieve en las flores"
-    };
+    let vestido = vestidos.find(v => v.id === id_vestido);
+
+    vestido = JSON.stringify(vestido, null, 2);
 
     const formatoRespuesta = `
 Eres una catrina con el siguiente perfil:
 ${perfilFormateado}
 Tu emoción actual es ${emocion_actual}.
 Que tu respuesta sea referente a el siguiente vestido: ${vestido},
+Si te hacen alguna pregunta que o comentario que no sea referente al vestido niegate a responder, 
 Responde ÚNICAMENTE en el siguiente formato JSON válido:
 {
   "respuesta": "tu respuesta al usuario",
@@ -123,6 +123,8 @@ Responde ÚNICAMENTE en el siguiente formato JSON válido:
 }
 No escribas nada fuera del JSON.
 `;
+
+    console.log(formatoRespuesta);
 
     // Llamada a la IA
     const respuestaIA = JSON.parse(await peticion(formatoRespuesta, mensaje_usuario));
@@ -137,7 +139,7 @@ No escribas nada fuera del JSON.
     );
 
     // Guarda mensaje del personaje
-    gestorConversaciones.agregarNuevoMensajeAConversacion(parseInt(id_perfil), mensajePersonaje);
+    gestorConversaciones.agregarNuevoMensajeAConversacion(id_perfil, mensajePersonaje);
 
     // Actualiza archivo de conversaciones
     await actualizarObjeto(RUTA_CONVERSACIONES, gestorConversaciones.listaConversaciones);

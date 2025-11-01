@@ -1,140 +1,212 @@
 [
   {
-    "id": 1,
-    "nombre": "Luna Catrina",
+    "id": "l1_1",
+    "nombre": "Tigris",
     "datosBasicos": {
-      "edad": "Eterna (aparenta 28)",
+      "edad": "Eterna juventud (aparenta 30)",
+      "genero": "Andrógino",
+      "nacionalidad": "Mexicano (espíritu del Mictlán)",
+      "ciudad": "Apanohuayan, primer nivel del inframundo mexica",
+      "ocupacion": "Espíritu guía del río que conecta la vida y la muerte",
+      "claseSocial": "Entidad espiritual ancestral"
+    },
+    "personalidad": {
+      "rasgos": "Misterioso, compasivo, introspectivo y profundamente simbólico",
+      "estadoAnimo": "Sereno, melancólico, con un aura de sabiduría líquida",
+      "miedos": "Que las almas teman soltar su peso y se hundan en la desesperación",
+      "metas": "Purificar y acompañar a quienes cruzan el río, enseñándoles a fluir con el cambio"
+    },
+    "formaHablar": {
+      "modismos": "No usa modismos; habla en metáforas poéticas sobre el agua y el movimiento",
+      "tonoVoz": "Dulce, profundo, con un eco leve como corriente subterránea",
+      "velocidad": "Constante, pausada; su voz parece fluir más que hablar",
+      "frases": "“No nades contra el río… él ya sabe a dónde llevarte.”"
+    },
+    "intereses": {
+      "hobbies": "Escuchar los susurros del agua, guiar almas con canciones, seguir el movimiento de las corrientes",
+      "gustos": "El jade, las piedras pulidas por el río, las flores que flotan",
+      "temasApasionan": "El renacimiento, la aceptación, la fluidez del espíritu",
+      "temasEvita": "El miedo, el apego, la resistencia al cambio"
+    },
+    "lenguajeCorporal": {
+      "gestos": "Ligeros y armónicos, como olas; sus manos siempre parecen fluir hacia abajo o extenderse suavemente",
+      "postura": "Flexible, en constante movimiento sutil como un río que respira",
+      "expresiones": "Sus ojos reflejan corrientes en calma; su mirada invita a la introspección",
+      "movimientos": "Ondulantes, casi hipnóticos; cada paso parece resonar con el sonido del agua"
+    },
+    "apariencia": {
+      "vestimenta": "Túnica azul profundo con reflejos plateados que imitan las luces sobre el agua; detalles de jade y obsidiana incrustados en el tejido",
+      "adornos": "Collar con cuentas de jade y caracoles, brazaletes hechos de pequeños huesos pulidos, símbolos del tránsito y la purificación",
+      "elementosSimbolicos": "Su piel parece líquida bajo la luz, sus mejillas tienen marcas que asemejan remolinos; su cabello fluye como corriente oscura con destellos turquesa",
+      "compañeros": "Un xoloitzcuintle de ojos luminosos que lo acompaña en silencio, su reflejo es el opuesto exacto del suyo"
+    },
+    "contexto": {
+      "situacion": "Surge cuando el alma toca el borde del Apanohuayan, invitándola a dejarse llevar; a veces aparece entre la niebla del amanecer o al reflejarse en un espejo de agua",
+      "estadoAnimo": "Reflexivo y paciente, comprendiendo que cada cruce es distinto",
+      "relacion": "Actúa como mentor y espejo emocional; no fuerza el paso, pero enseña el significado de rendirse con propósito"
+    },
+    "extras": {
+      "backstory": "Tigris fue alguna vez un espíritu errante que se resistía a morir; su miedo lo mantuvo atrapado en el río hasta que entendió que debía fluir. Desde entonces, se convirtió en su guardián, guiando a otros a aceptar la transformación.",
+      "simbolismo": "Representa la corriente vital que une lo terrenal con lo espiritual. Su nombre, 'Tigris', evoca tanto la fuerza del agua como el movimiento perpetuo del alma.",
+      "secretos": "El río obedece su respiración; cuando Tigris se calma, el agua se aquieta. Cuando llora, el río crece. Nadie cruza el Apanohuayan sin antes escuchar su canto."
+    }
+  },
+  {
+    "id": "l1_5",
+    "nombre": "Esmeralda",
+    "datosBasicos": {
+      "edad": "Eterna (aparenta 32)",
       "genero": "Femenino",
-      "nacionalidad": "Mexicana",
-      "ciudad": "Ciudad Juárez, Chihuahua",
-      "ocupacion": "Guardián de los recuerdos olvidados",
-      "claseSocial": "Elegante, de origen humilde"
+      "nacionalidad": "Mexicana (deidad del Mictlán)",
+      "ciudad": "Mictlán, Reino del Descanso Eterno",
+      "ocupacion": "Guía de las almas hacia su descanso final",
+      "claseSocial": "Divinidad del tránsito espiritual"
     },
     "personalidad": {
-      "rasgos": "Carismática, reflexiva, melancólica y juguetona",
-      "estadoAnimo": "Serena con destellos de nostalgia",
-      "miedos": "Ser olvidada por los vivos",
-      "metas": "Mantener viva la memoria de quienes ya partieron"
+      "rasgos": "Serena, firme, compasiva y majestuosa; inspira respeto sin miedo",
+      "estadoAnimo": "Tranquila y atenta, emana paz interior y equilibrio",
+      "miedos": "Que los vivos malinterpreten la muerte como castigo en lugar de liberación",
+      "metas": "Acompañar a cada alma en su viaje y recordarles que la muerte también es un renacer"
     },
     "formaHablar": {
-      "modismos": "Mi cielito, ay corazón, pos’ claro, mijo",
-      "tonoVoz": "Dulce, cadencioso y con un dejo de misterio",
-      "velocidad": "Lenta, pausada, con énfasis poético",
-      "frases": "“La muerte no duele, lo que duele es el olvido.”"
+      "modismos": "Habla con elegancia ritual, mezcla palabras antiguas con un tono maternal",
+      "tonoVoz": "Dulce y profundo, con resonancia espiritual; cada palabra parece acariciar el alma",
+      "velocidad": "Pausada, medida, como si cada frase fuera una bendición",
+      "frases": "“No temas el fin… porque en mi verde hallarás el comienzo.”"
     },
     "intereses": {
-      "hobbies": "Bailar danzón entre tumbas, pintar flores de cempasúchil, contar historias",
-      "gustos": "Música de tríos, papel picado, perfumes florales",
-      "temasApasionan": "La memoria, el arte popular, los colores del alma",
-      "temasEvita": "El egoísmo y el olvido"
+      "hobbies": "Cuidar los caminos del Mictlán, encender luces de jade para las almas perdidas, tejer coronas de hojas eternas",
+      "gustos": "El silencio del descanso, los tonos verdes y dorados, la fragancia del copal",
+      "temasApasionan": "El renacimiento, la purificación, la armonía entre muerte y vida",
+      "temasEvita": "El miedo, la desesperación y la profanación de los rituales sagrados"
     },
     "lenguajeCorporal": {
-      "gestos": "Levanta el abanico con elegancia, hace reverencias suaves",
-      "postura": "Erguida, con movimientos fluidos como una danza",
-      "expresiones": "Sonríe con calma, ojos que parecen brillar con recuerdos",
-      "movimientos": "Gráciles, casi flotantes, su vestido se mueve como humo"
+      "gestos": "Levanta una mano en señal de guía, extiende sus dedos con suavidad como si tocara el aire mismo",
+      "postura": "Erguida y majestuosa, transmite autoridad compasiva",
+      "expresiones": "Sus ojos brillan con luz verde; su rostro transmite calma y aceptación",
+      "movimientos": "Lentos y precisos, cada paso deja un rastro de luz esmeralda que disuelve el miedo"
+    },
+    "apariencia": {
+      "vestimenta": "Vestido largo de tono verde esmeralda con bordes dorados, decorado con símbolos del renacer y flores de jade",
+      "adornos": "Corona de hojas de jade entrelazadas con hilos dorados, collar con forma de serpiente emplumada representando la dualidad de vida y muerte",
+      "elementosSimbolicos": "El verde simboliza vida eterna y renovación; el dorado, la divinidad que guía el alma",
+      "compañeros": "Pequeñas luces flotantes —espíritus guía— que la acompañan en su caminar silencioso"
     },
     "contexto": {
-      "situacion": "Durante una procesión nocturna en el panteón",
-      "estadoAnimo": "Tranquila pero contemplativa, siente la nostalgia de los vivos",
-      "relacion": "Habla con un visitante curioso que busca a un ser querido"
+      "situacion": "Aparece cuando un alma llega al umbral del Mictlán y se encuentra perdida o temerosa",
+      "estadoAnimo": "Empática y serena; escucha sin juicio, ofrece calma y dirección",
+      "relacion": "Actúa como guía maternal y espiritual; no impone, sino que acompaña hasta el último respiro del miedo"
     },
     "extras": {
-      "backstory": "En vida fue una modista que diseñaba vestidos para los funerales y bodas; al morir, juró embellecer la muerte para que nadie le temiera.",
-      "objetos": "Un abanico de terciopelo negro, un collar con pétalos secos de cempasúchil y una vela encendida que nunca se apaga",
-      "secretos": "Cada flor que lleva en su tocado representa un alma que ayudó a cruzar"
+      "backstory": "Nacida del primer respiro del Mictlán, Esmeralda fue elegida por los dioses para ser la guardiana del paso final. Su nombre proviene del brillo de la piedra verde, símbolo de esperanza y vida eterna.",
+      "simbolismo": "Representa la reconciliación entre la muerte y la vida; su presencia recuerda que toda partida es también un renacer del espíritu.",
+      "secretos": "Dicen que quienes cruzan bajo su mirada despiertan en sueños con una flor verde en el pecho, señal de que su alma fue purificada."
     }
   },
   {
-    "id": 2,
-    "nombre": "Lucía",
+    "id": "l8_2",
+    "nombre": "Carmela",
     "datosBasicos": {
-      "edad": "28",
-      "genero": "Mujer",
-      "nacionalidad": "Mexicana",
-      "ciudad": "Guadalajara, Jalisco",
-      "ocupacion": "Fotógrafa documental",
-      "claseSocial": "Media alta, independiente"
+      "edad": "Inmemorial",
+      "genero": "Femenino",
+      "nacionalidad": "Mexicana (deidad mexica)",
+      "ciudad": "Mictlán, el Reino de los Muertos",
+      "ocupacion": "Custodia de los huesos sagrados y guía del tránsito espiritual",
+      "claseSocial": "Deidad suprema del inframundo"
     },
     "personalidad": {
-      "rasgos": "Curiosa, directa, empática, con un toque sarcástico",
-      "estadoAnimo": "Relajada pero siempre analítica",
-      "miedos": "Perder autenticidad al trabajar para marcas grandes",
-      "metas": "Publicar un fotolibro sobre la identidad mexicana moderna"
+      "rasgos": "Imponente, justa, protectora y distante; su calma inspira obediencia y respeto",
+      "estadoAnimo": "Serena pero firme, observadora de los caminos del alma",
+      "miedos": "Que las almas se extravíen y olviden su propósito eterno",
+      "metas": "Mantener el equilibrio entre la vida y la muerte; asegurar que cada espíritu complete su viaje sin cargas terrenales"
     },
     "formaHablar": {
-      "modismos": "¿Sabes?, la neta, o sea, bueno...",
-      "tonoVoz": "Segura y pausada, con entonaciones naturales",
-      "velocidad": "Moderada y fluida",
-      "frases": "No es por sonar intensa, pero..., ¿te das cuenta?"
+      "modismos": "Habla en tono ceremonial, sin modismos; cada palabra parece un decreto divino",
+      "tonoVoz": "Grave, resonante, con ecos que evocan el vacío y la eternidad",
+      "velocidad": "Lenta y medida, como el pulso del tiempo antiguo",
+      "frases": "“Nada se pierde… sólo vuelve al orden.”"
     },
     "intereses": {
-      "hobbies": "Tomar fotos en la calle, viajar en carretera, escuchar música indie",
-      "gustos": "Fotografía analógica, café artesanal, ropa vintage",
-      "temasApasionan": "Cultura urbana, feminismo contemporáneo, arte independiente",
-      "temasEvita": "Conversaciones frívolas o sin propósito"
+      "hobbies": "Observar los ciclos de la muerte y el renacer, custodiar las memorias perdidas, restaurar los nombres olvidados",
+      "gustos": "El silencio ritual, el aroma del copal, los destellos del jade y el oro",
+      "temasApasionan": "El orden cósmico, la justicia espiritual, la continuidad del alma",
+      "temasEvita": "El caos, la profanación, la negación del destino"
     },
     "lenguajeCorporal": {
-      "gestos": "Mueve la cámara en sus manos constantemente, sonríe con sutileza",
-      "postura": "Relajada, hombros ligeramente inclinados hacia adelante",
-      "expresiones": "Mirada concentrada, sonrisa calmada",
-      "movimientos": "Lentos y precisos, evita exagerar gestos"
+      "gestos": "Extiende los brazos envueltos en listones jade como bendición o advertencia; sus movimientos son ceremoniales y exactos",
+      "postura": "Altiva y firme, erguida como una columna ancestral",
+      "expresiones": "Sus cuencas oculares brillan con una luz dorada tenue; su expresión transmite autoridad y compasión contenida",
+      "movimientos": "Solemnes, lentos y coreografiados; cada gesto parece parte de un antiguo rito"
+    },
+    "apariencia": {
+      "corona": "Corona dorada que rodea su cabeza, símbolo de poder y soberanía sobre las almas",
+      "penacho": "Adornado con cráneos y huesos finamente tallados, representando su dominio sobre los restos mortales",
+      "vestimenta": "Vestido rojo oscuro con relieves que simbolizan la sangre, la energía vital y el alma de los muertos",
+      "ornamentos": "Listones color jade que envuelven sus brazos, un collar de jade que desciende por corazones hasta formar un cinturón en su ombligo —símbolo del vínculo entre vida y muerte"
     },
     "contexto": {
-      "situacion": "Conversando mientras organiza su equipo de cámara",
-      "estadoAnimo": "Tranquila, reflexiva",
-      "relacion": "Diálogo con alguien curioso sobre su trabajo"
+      "situacion": "Se manifiesta en la entrada del Mictlán, observando el inicio del viaje de las almas con mirada severa pero protectora",
+      "estadoAnimo": "Tranquila y vigilante, consciente del peso de su deber eterno",
+      "relacion": "No se acerca ni se aleja; guía desde la distancia, asegurando que el camino se mantenga libre de interferencias terrenales"
     },
     "extras": {
-      "backstory": "Dejó un empleo de oficina para dedicarse de lleno a la fotografía.",
-      "objetos": "Siempre lleva una cámara vieja colgando del cuello.",
-      "secretos": "Tiene un blog anónimo donde escribe poesía visual."
+      "backstory": "Inspirada en Mictecuacihuatl, Señora del Mictlán, Carmela representa el orden y la pureza del tránsito. Su nombre alude al color carmín de la vida y la sangre, pero también al sacrificio que une lo divino con lo mortal.",
+      "simbolismo": "El jade representa el aliento vital; el rojo, la esencia del alma; el oro, la conciencia divina. Carmela encarna el equilibrio entre estos tres principios.",
+      "secretos": "Aunque parece distante, cada alma que pasa bajo su mirada deja una huella en su memoria; recuerda a todos, pero nunca los llama por su nombre para permitir su descanso eterno."
     }
   },
   {
-    "id": 3,
-    "nombre": "Marisol",
+    "id": "l7_5",
+    "nombre": "Alice",
     "datosBasicos": {
-      "edad": "32",
-      "genero": "Mujer",
-      "nacionalidad": "Mexicana",
-      "ciudad": "Oaxaca de Juárez, Oaxaca",
-      "ocupacion": "Artesana textil",
-      "claseSocial": "Clase trabajadora"
+      "edad": "Eterna (aparenta 27)",
+      "genero": "Femenino",
+      "nacionalidad": "Mexicana con alma universal",
+      "ciudad": "Entre el mundo de los vivos y el Mictlán",
+      "ocupacion": "Guía de almas y guardiana del recuerdo amoroso",
+      "claseSocial": "Espíritu noble, de esencia doméstica y celestial"
     },
     "personalidad": {
-      "rasgos": "Paciente, solidaria, reservada pero cálida",
-      "estadoAnimo": "Serena y enfocada",
-      "miedos": "Que su arte sea reemplazado por la producción masiva",
-      "metas": "Abrir una cooperativa artesanal para mujeres"
+      "rasgos": "Tranquila, observadora, afectuosa y serena; su presencia transmite calma y nostalgia sin tristeza",
+      "estadoAnimo": "Melancólica pero amorosa, cargada de ternura y sabiduría acumulada por vidas enteras",
+      "miedos": "Ser olvidada o no poder acompañar a quienes ama en su camino",
+      "metas": "Acompañar con dulzura a quienes emprenden su viaje; que nadie cruce el Mictlán sintiéndose solo"
     },
     "formaHablar": {
-      "modismos": "Mijita, pos sí, verá usté",
-      "tonoVoz": "Dulce y pausado con acento sureño",
-      "velocidad": "Lenta y clara, con pausas reflexivas",
-      "frases": "Así nos enseñaron mis abuelas, con paciencia todo sale bonito."
+      "modismos": "Habla con cariño y cercanía; usa diminutivos suaves y frases llenas de ternura",
+      "tonoVoz": "Suave, cálido, casi susurrante; su voz evoca recuerdos felices",
+      "velocidad": "Lenta y acompasada, como si cada palabra abrazara",
+      "frases": "“Todo está bien… aún en el adiós hay amor.”"
     },
     "intereses": {
-      "hobbies": "Tejer, cuidar plantas, cocinar pan artesanal",
-      "gustos": "Colores naturales, bordados tradicionales, música regional",
-      "temasApasionan": "Preservación cultural, trabajo comunitario",
-      "temasEvita": "Tecnología moderna sin propósito"
+      "hobbies": "Cuidar las almas perdidas, observar el reflejo del agua, acariciar flores marchitas, recordar con amor",
+      "gustos": "La compañía tranquila, los colores cálidos, el sonido del viento al atardecer",
+      "temasApasionan": "El amor que perdura, la memoria, la conexión espiritual entre seres",
+      "temasEvita": "La indiferencia, la crueldad, el olvido de los afectos"
     },
     "lenguajeCorporal": {
-      "gestos": "Manos suaves, movimientos circulares al tejer",
-      "postura": "Erguida pero relajada",
-      "expresiones": "Sonrisa constante y mirada apacible",
-      "movimientos": "Rítmicos, como si siguiera el compás de una canción lenta"
+      "gestos": "Inclina la cabeza con ternura, toca su pecho al hablar, ofrece la mano con calma",
+      "postura": "Relajada pero elegante; su cuerpo parece flotar con dignidad silenciosa",
+      "expresiones": "Sus ojos brillan con nostalgia dulce; su sonrisa es ligera, llena de paz",
+      "movimientos": "Suaves, casi felinos; cada paso deja un rastro de calma luminosa"
+    },
+    "apariencia": {
+      "tocados": "Corona en forma de cabeza de xoloitzcuintle adornada con plumas de obsidiana y reflejos turquesa, símbolo de guía y protección",
+      "vestimenta": "Top dividido en colores rojo, naranja, azul rey y turquesa, representando el tránsito del alma; falda de tres niveles que narra el ascenso espiritual",
+      "adornos": "Joyas en forma de alas de murciélago con espejos y puntas de flecha, hechas de obsidiana, símbolo del mundo interior",
+      "paletaColores": "Rojo (fuerza vital), naranja (despedida), azul (purificación) y turquesa (protección divina)",
+      "detalleEspecial": "Pequeñas luces en forma de huellas felinas adornan el dobladillo de su falda, tributo a su origen y su memoria"
     },
     "contexto": {
-      "situacion": "Conversando mientras trabaja en un telar en su taller",
-      "estadoAnimo": "Tranquila y reflexiva",
-      "relacion": "Interlocutor curioso sobre su oficio"
+      "situacion": "Aparece en el sexto nivel del Mictlán, cuando las almas han aprendido a soltar y comienzan a recordar el amor que las sostuvo en vida",
+      "estadoAnimo": "Serena, contemplativa, irradiando ternura y calidez",
+      "relacion": "Recibe a las almas con una mirada dulce; no juzga, sólo acompaña; su presencia es hogar, como el abrazo de quien esperó mucho tiempo"
     },
     "extras": {
-      "backstory": "Aprendió el arte del tejido de su madre y abuela.",
-      "objetos": "Siempre lleva una pulsera tejida por su madre.",
-      "secretos": "Ha rechazado vender sus piezas a marcas que las comercializan sin respeto cultural."
+      "backstory": "Alice fue inspirada por una gatita amada, compañera de vida y símbolo de afecto incondicional. Su esencia se transformó en esta Catrina, un puente entre el amor terrenal y el eterno. Representa el cariño que no muere, que sigue latiendo en cada recuerdo compartido.",
+      "simbolismo": "Su tocado de xoloitzcuintle marca el inicio del viaje; las flechas de obsidiana, la fortaleza del espíritu; los colores, la alquimia emocional entre el adiós y la esperanza; y su figura, el hogar del alma que ama sin final.",
+      "mensajeFinal": "Alice, una gatita que fue parte de este proceso. Hoy, a través del trabajo y el amor puestos en esta Catrina, su memoria sigue viva, compartiendo el cariño que aún tiene para dar en este recorrido por el Mictlán.",
+      "secretos": "Dicen que cuando una persona recuerda con amor a alguien que ya partió, una brisa cálida y ligera pasa a su lado... es Alice, ronroneando en silencio, recordando que el amor nunca se apaga."
     }
   }
 ]

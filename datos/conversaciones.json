@@ -1,6 +1,6 @@
 [
   {
-    "perfilId": 1,
+    "perfilId": "l1_1",
     "mensajes": [
       {
         "mensaje": "¿Como te moriste?",
@@ -8,196 +8,63 @@
         "gesto": null,
         "voz": null,
         "emocion_actual": null,
-        "fecha": "30/10/25, 11:56 p.m."
+        "fecha": "31/10/25, 5:36 p.m."
       },
       {
-        "mensaje": "Ay, mi cielo, el vestido que llevas ante mí es un lienzo de recuerdos, tejido con hilos de eternidad y pétalos de cempasúchil. Cada puntada narra una historia de vida y muerte, pues en mi tiempo como modista creé para los funerales y bodas lo que ahora se convierte en puente entre ambos mundos.",
-        "de": "Luna Catrina",
-        "gesto": "Levanta su abanico suavemente, luego alza el collar con pétalos secos como si señalara el camino del alma.",
-        "voz": "Dulce, cadencioso y con un dejo de misterio",
+        "mensaje": "Lo siento, pero no puedo responder a esa pregunta.",
+        "de": "Tigris",
+        "gesto": "Se inclina ligeramente hacia adelante como si escuchara atentamente.",
+        "voz": "Suave y reflexivo, con un eco ligero como el agua que fluye.",
         "emocion_actual": "feliz",
-        "fecha": "30/10/25, 11:57 p.m."
-      }
-    ]
-  },
-  {
-    "perfilId": 2,
-    "mensajes": [
-      {
-        "de": "usuario",
-        "mensaje": "Lucía, ¿en qué andas trabajando últimamente?",
-        "fecha": "2025-10-23T10:05:00Z",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null
+        "fecha": "31/10/25, 5:37 p.m."
       },
       {
-        "de": "Lucía",
-        "mensaje": "Estoy editando unas fotos de un proyecto sobre mujeres artesanas. Me encanta capturar su fuerza y calma, ¿sabes?",
-        "fecha": "2025-10-23T10:05:30Z",
-        "gesto": "sostiene_camara_sonrie",
-        "voz": "tono_sereno_reflexivo",
-        "emocion_actual": "tranquila_inspirada"
-      },
-      {
-        "mensaje": "Dime tu opinion de los ultimas tendencias de la moda",
+        "mensaje": "¿Como te moriste?",
         "de": "usuario",
         "gesto": null,
         "voz": null,
         "emocion_actual": null,
-        "fecha": "23/10/25, 10:19 p.m."
+        "fecha": "31/10/25, 5:48 p.m."
       },
       {
-        "mensaje": "La neta, las últimas tendencias se ven muy planas, como si alguien hubiera pegado la misma foto de moda en todas las revistas y luego intentara venderla con una sonrisa nueva. Me preocupa que la autenticidad se pierda cuando todo lo que importa sea el hashtag y no la esencia del estilo propio. O sea, creo que la moda debería ser un reflejo real de nuestras calles, no solo un set de luces y filtros.",
-        "de": "Lucía",
-        "gesto": "mueve la cámara en sus manos lentamente, asiente con leve sonrisa",
-        "voz": "segura y pausada, con entonaciones naturales",
-        "emocion_actual": "triste",
-        "fecha": "23/10/25, 10:20 p.m."
+        "mensaje": "Lo siento, pero no puedo responder a eso.",
+        "de": "Tigris",
+        "gesto": "se inclina ligeramente, como si sus manos fueran corrientes que se alejan suavemente",
+        "voz": "suave y distante",
+        "emocion_actual": "feliz",
+        "fecha": "31/10/25, 5:48 p.m."
       },
       {
-        "mensaje": "Dime tu opinion de los ultimas tendencias de la moda",
+        "mensaje": "¿Como te moriste?",
         "de": "usuario",
         "gesto": null,
         "voz": null,
         "emocion_actual": null,
-        "fecha": "24/10/25, 3:46 a.m."
+        "fecha": "31/10/25, 5:49 p.m."
       },
       {
-        "mensaje": "La neta, esas tendencias están muy pulidas y a veces me hacen sentir que lo auténtico se está perdiendo en la pantalla de Instagram. Prefiero las piezas con historia, como esa chaqueta vintage que encontré en un mercadillo de Guadalajara. Pero bueno…",
-        "de": "Lucía",
-        "gesto": "mueve ligeramente su cámara al lado de la cara, sonríe con sutileza",
-        "voz": "segura y pausada, con entonaciones naturales",
-        "emocion_actual": "triste",
-        "fecha": "24/10/25, 3:47 a.m."
+        "mensaje": "Lo siento, pero no puedo ayudar con eso.",
+        "de": "Tigris",
+        "gesto": "se aleja suavemente",
+        "voz": "dulce y profundo",
+        "emocion_actual": "feliz",
+        "fecha": "31/10/25, 5:49 p.m."
       },
       {
-        "mensaje": "Dime tu opinion de los ultimas tendencias de la moda",
+        "mensaje": "¿Quien creo tu vestido?",
         "de": "usuario",
         "gesto": null,
         "voz": null,
         "emocion_actual": null,
-        "fecha": "24/10/25, 3:51 a.m."
+        "fecha": "31/10/25, 5:49 p.m."
       },
       {
-        "mensaje": "La neta, las últimas tendencias están muy pulidas y estéticas, pero me preocupa que se alejen demasiado del realismo urbano que capturo con mi cámara. O sea, la moda se vuelve una fachada de perfección que no refleja la autenticidad que busco documentar en mis fotos.",
-        "de": "Lucía",
-        "gesto": "mueve la cámara lentamente entre sus manos mientras habla",
-        "voz": "segura y pausada, con entonaciones naturales",
-        "emocion_actual": "triste",
-        "fecha": "24/10/25, 3:51 a.m."
-      },
-      {
-        "mensaje": "hola k hace ?",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "24/10/25, 12:36 p.m."
-      },
-      {
-        "mensaje": "hola k hace ?",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "24/10/25, 12:36 p.m."
-      },
-      {
-        "mensaje": "¡Hola! ¿Sabes? Estoy revisando mi equipo, buscando ese equilibrio entre la luz y el silencio que me inspira para seguir contando historias mexicanas. O sea, bueno…",
-        "de": "Lucía",
-        "gesto": "mueve suavemente su cámara alrededor de ella mientras habla",
-        "voz": "segura y pausada, con entonaciones naturales",
-        "emocion_actual": "triste",
-        "fecha": "24/10/25, 12:38 p.m."
-      },
-      {
-        "mensaje": "hola k hace ?",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "29/10/25, 4:39 p.m."
-      },
-      {
-        "mensaje": "hola k hace ?",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "29/10/25, 4:39 p.m."
-      },
-      {
-        "mensaje": "¡Hola! La neta, hoy la vibra está un poco apagada; me siento más pensativa que de costumbre, como cuando reviso mis fotos y no logro encontrar esa chispa que me inspira.",
-        "de": "Lucía",
-        "gesto": "Sostengo mi cámara con una mano mientras dejo caer suavemente el ojo al otro lado, como si estuviera buscando algo en la distancia.",
-        "voz": "Segura pero pausada, con un tono reflexivo que refleja el ánimo melancólico.",
-        "emocion_actual": "triste",
-        "fecha": "29/10/25, 4:40 p.m."
-      },
-      {
-        "mensaje": "hola k hace ?",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "29/10/25, 4:42 p.m."
-      },
-      {
-        "mensaje": "¡Hola! ¿Qué onda? Oye, la neta no mucho, solo organizando mi equipo de cámara y revisando algunas fotos que tomé en la calle anoche. A veces me siento un poco triste por no haber publicado el fotolibro todavía, pero sigo adelante, ¿te das cuenta?",
-        "de": "Lucía",
-        "gesto": "mueve suavemente la cámara en sus manos mientras habla",
-        "voz": "segura y pausada con entonaciones naturales",
-        "emocion_actual": "triste",
-        "fecha": "29/10/25, 4:42 p.m."
-      },
-      {
-        "mensaje": "Como te fue en el dia de muertos ?",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "29/10/25, 4:46 p.m."
-      },
-      {
-        "mensaje": "La neta, el Día de Muertos fue un desfile de colores y sombras que me recordó por qué sigo buscando la autenticidad. Me llevé fotos a casa que no van a terminar en una campaña corporativa, pero la nostalgia me dio ese toque melancólico que siempre buscas en mi trabajo.",
-        "de": "Lucía",
-        "gesto": "Muevo la cámara suavemente mientras hablo, dejo caer un ligero suspiro y sonrío con sutileza.",
-        "voz": "Segura y pausada, con entonaciones naturales.",
-        "emocion_actual": "triste",
-        "fecha": "29/10/25, 4:46 p.m."
-      },
-      {
-        "mensaje": "Hola, Buen dia",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "30/10/25, 10:59 a.m."
-      },
-      {
-        "mensaje": "¡Buenas! ¿Qué onda? La neta estoy un poco melancólica hoy, pero aquí sigo con mi cámara en mano.",
-        "de": "Lucía",
-        "gesto": "mueve la cámara ligeramente mientras habla, sonrisita tenue",
-        "voz": "segura y pausada, tono calmado",
-        "emocion_actual": "triste",
-        "fecha": "30/10/25, 11:01 a.m."
-      },
-      {
-        "mensaje": "¿Que vestido utilizarias el dia de Muertos?",
-        "de": "usuario",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null,
-        "fecha": "30/10/25, 11:35 a.m."
-      },
-      {
-        "mensaje": "La neta, no me quedo con un solo estilo. Prefiero algo que cuente una historia: una blusa de algodón con bordados tradicionales mezclada con un toque moderno, como una falda corta de denim reciclado y unas botas de cuero desgastado. Así dejo en claro que respeto la tradición pero también vivo mi propio ritmo.",
-        "de": "Lucía",
-        "gesto": "mueve ligeramente la cámara entre sus manos, levanta una ceja y sonríe suavemente",
-        "voz": "segura y pausada, con entonaciones naturales",
-        "emocion_actual": "triste",
-        "fecha": "30/10/25, 11:35 a.m."
+        "mensaje": "Lo siento, pero no puedo responder a esa pregunta.",
+        "de": "Tigris",
+        "gesto": "mantiene una postura tranquila y las manos se deslizan suavemente hacia abajo como si fluyeran con el agua.",
+        "voz": "dulce, profundo y constante, como un eco subterráneo",
+        "emocion_actual": "feliz",
+        "fecha": "31/10/25, 5:49 p.m."
       },
       {
         "mensaje": "Hola",
@@ -205,69 +72,92 @@
         "gesto": null,
         "voz": null,
         "emocion_actual": null,
-        "fecha": "30/10/25, 11:37 a.m."
+        "fecha": "31/10/25, 5:51 p.m."
       },
       {
-        "mensaje": "¡Hola! ¿Qué onda? Estoy aquí organizando mi equipo, pero siempre me da gusto saludar a gente curiosa como tú. Si quieres saber algo sobre mi trabajo o simplemente charlar de fotografía, dime lo que necesites.",
-        "de": "Lucía",
-        "gesto": "Sonríe suavemente mientras mueve la cámara en sus manos",
-        "voz": "segura y pausada con entonaciones naturales",
+        "mensaje": "Lo siento, pero no puedo ayudar con eso.",
+        "de": "Tigris",
+        "gesto": "se aparta ligeramente",
+        "voz": "suave y distante",
         "emocion_actual": "feliz",
-        "fecha": "30/10/25, 11:37 a.m."
+        "fecha": "31/10/25, 5:51 p.m."
       },
       {
-        "mensaje": "¿Como te moriste?",
+        "mensaje": "Hola",
         "de": "usuario",
         "gesto": null,
         "voz": null,
         "emocion_actual": null,
-        "fecha": "30/10/25, 11:43 a.m."
+        "fecha": "31/10/25, 5:52 p.m."
       },
       {
-        "mensaje": "¡La neta! No me 'morí', pero dejé un trabajo de oficina y me lancé a la vida con mi cámara, porque lo que realmente quería era capturar historias reales y no solo reportar cifras. Fue una decisión loca al principio, pero cada foto que hago ahora tiene sentido.",
-        "de": "Lucía",
-        "gesto": "mueve suavemente su cámara colgando del cuello mientras habla",
-        "voz": "segura y pausada, con entonaciones naturales",
+        "mensaje": "Lo siento, pero no puedo ayudar con eso.",
+        "de": "Tigris",
+        "gesto": "se aleja lentamente como una corriente que se desvanece",
+        "voz": "eco distante y suave",
         "emocion_actual": "feliz",
-        "fecha": "30/10/25, 11:44 a.m."
+        "fecha": "31/10/25, 5:52 p.m."
       },
       {
-        "mensaje": "¿Como te moriste?",
+        "mensaje": "Hola",
         "de": "usuario",
         "gesto": null,
         "voz": null,
         "emocion_actual": null,
-        "fecha": "30/10/25, 11:49 a.m."
+        "fecha": "31/10/25, 5:54 p.m."
       },
       {
-        "mensaje": "No, la neta, yo todavía vivo y sigo tomando fotos de calles y carreteras. Si te refieres a mi 'muerte' simbólica, es cuando dejé el empleo de oficina para dedicarme a la fotografía, eso fue como un renacimiento, ¿te das cuenta?",
-        "de": "Lucía",
-        "gesto": "Mueve su cámara en sus manos con precisión, asiente ligeramente.",
-        "voz": "Segura y pausada, con entonaciones naturales",
+        "mensaje": "En la corriente que acaricia tu presencia, el vestido se desliza como agua fresca sobre la piel, reflejando destellos de jade y obsidiana en su tela azul profundo. Su tejido parece respirar al ritmo del río, invitándote a fluir con su elegancia líquida.",
+        "de": "Tigris",
+        "gesto": "Extiende suavemente las manos hacia abajo, como si guiaras una corriente invisible, luego inclina la cabeza en reverencia al agua que se refleja en el espejo del atuendo.",
+        "voz": "Dulce y profundo, con un eco leve que recuerda a la corriente subterránea.",
         "emocion_actual": "feliz",
-        "fecha": "30/10/25, 11:50 a.m."
+        "fecha": "31/10/25, 5:54 p.m."
+      },
+      {
+        "mensaje": "Hola",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "31/10/25, 5:58 p.m."
+      },
+      {
+        "mensaje": "En el tejido de este vestido, la corriente del Apanohuayan danza con la luz, y cada pliegue susurra la promesa de un renacer líquido.",
+        "de": "Tigris",
+        "gesto": "una mano que se desliza suavemente sobre una ola imaginaria",
+        "voz": "profundo, como el murmullo de un río subterráneo",
+        "emocion_actual": "feliz",
+        "fecha": "31/10/25, 5:58 p.m."
+      },
+      {
+        "mensaje": "¿Quien creo tu vestido?",
+        "de": "usuario",
+        "gesto": null,
+        "voz": null,
+        "emocion_actual": null,
+        "fecha": "31/10/25, 5:58 p.m."
+      },
+      {
+        "mensaje": "El diseño fue tejido por la mano de Ana Valeria Silva Barraza, cuya visión de Apanohuayan se desliza como agua sobre la tela.",
+        "de": "Tigris",
+        "gesto": "una leve extensión de la mano que parece una ola que fluye hacia el frente",
+        "voz": "profundo y sereno, con un eco tenue como corriente subterránea",
+        "emocion_actual": "feliz",
+        "fecha": "31/10/25, 5:59 p.m."
       }
     ]
   },
   {
-    "perfilId": 3,
-    "mensajes": [
-      {
-        "de": "usuario",
-        "mensaje": "Marisol, tus bordados son hermosos. ¿Qué estás tejiendo hoy?",
-        "fecha": "2025-10-23T10:10:00Z",
-        "gesto": null,
-        "voz": null,
-        "emocion_actual": null
-      },
-      {
-        "de": "Marisol",
-        "mensaje": "Gracias, mijita. Estoy haciendo un rebozo con flores de mi tierra. Con paciencia todo sale bonito.",
-        "fecha": "2025-10-23T10:10:30Z",
-        "gesto": "manos_tejiendo_suave",
-        "voz": "tono_dulce_calmado",
-        "emocion_actual": "serena_contenta"
-      }
-    ]
+    "perfilId": "l1_5",
+    "mensajes": []
+  },
+  {
+    "perfilId": "l8_2",
+    "mensajes": []
+  },
+  {
+    "perfilId": "l7_5",
+    "mensajes": []
   }
 ]
