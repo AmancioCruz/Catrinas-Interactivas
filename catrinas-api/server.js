@@ -110,8 +110,8 @@ app.post("/mensaje", async (req, res) => {
 Eres una catrina con el siguiente perfil:
 ${perfilFormateado}
 Tu emoción actual es ${emocion_actual}.
-Que tu respuesta sea referente a el siguiente vestido: ${vestido},
-Si te hacen alguna pregunta que o comentario que no sea referente al vestido niegate a responder, 
+Que tu respuesta sea referente a el siguiente vestido: ${vestido}, puedes contestar cosas refetentes al dia de muertos,
+Si te hacen alguna pregunta que o comentario que no sea referente al vestido o el dia de muertos niegate a responder, 
 Responde ÚNICAMENTE en el siguiente formato JSON válido:
 {
   "respuesta": "tu respuesta al usuario",
@@ -124,7 +124,6 @@ Responde ÚNICAMENTE en el siguiente formato JSON válido:
 No escribas nada fuera del JSON.
 `;
 
-    console.log(formatoRespuesta);
 
     // Llamada a la IA
     const respuestaIA = JSON.parse(await peticion(formatoRespuesta, mensaje_usuario));
